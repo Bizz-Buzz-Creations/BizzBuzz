@@ -9,7 +9,7 @@ import OurServices from "@/components/sections/ourServices";
 import Reviews from "@/components/sections/reviews";
 import WhatMAkesUs from "@/components/sections/whatMakesUs";
 import RecentWork from "@/components/sections/recentWork";
-import WhyMakesUs from "@/components/sections/whyMakesUs";
+import WhyChooseUs from "@/components/sections/WhyChooseUs";
 
 export default function Home() {
   return (
@@ -30,7 +30,7 @@ export default function Home() {
       <WhatMAkesUs />
 
       {/* Why choose us */}
-      <WhyMakesUs />
+      <WhyChooseUs />
 
       {/* Why Choose Us Section */}
       <RecentWork />

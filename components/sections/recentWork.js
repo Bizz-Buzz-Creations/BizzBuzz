@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function RecentWork() {
   return (
     <section
-      className="bg-cover bg-no-repeat bg-center "
+      className="bg-cover bg-no-repeat bg-center"
       style={{
         backgroundImage: 'url("/building.webp")',
       }}
@@ -21,7 +21,7 @@ export default function RecentWork() {
             <div className="w-12/12 mx-auto rounded-2xl bg-white/40 p-5 backdrop-filter backdrop-blur-lg">
               <div>
                 <div className="flex flex-wrap items-center overflow-x-auto overflow-y-hidden py-2 justify-center text-gray-800">
-                  <div className="flex flex-col md:w-1/2 xl:w-1/2 p-4">
+                  <div className="flex flex-col md:w-1/2 xl:w-1/2  p-4">
                     <div className="bg-white shadow-md rounded-3xl p-4 border border-gray-100">
                       <div className="flex-none lg:flex items-center">
                         <div className="h-full w-full lg:h-full lg:w-full lg:mb-0 mb-3">
@@ -33,7 +33,7 @@ export default function RecentWork() {
                             className="w-full object-cover lg:h-full rounded-2xl"
                           />
                         </div>
-                        <div className="flex flex-col w-1/2 ml-3 justify-between py-2">
+                        <div className="flex flex-col md:w-1/2 w-65 ml-3 justify-between py-2">
                           <div className="flex flex-wrap">
                             <h3 className="flex-auto text-lg font-medium">
                               Website redesigns
@@ -65,7 +65,7 @@ export default function RecentWork() {
                             className="w-full object-cover lg:h-full rounded-2xl"
                           />
                         </div>
-                        <div className="flex flex-col w-1/2 ml-3 justify-between py-2">
+                        <div className="flex flex-col md:w-1/2 w-65 ml-3 justify-between py-2">
                           <div className="flex flex-wrap">
                             <h3 className="flex-auto text-lg font-medium">
                               SEO result graphs
@@ -97,7 +97,7 @@ export default function RecentWork() {
                             className="w-full object-cover lg:h-full rounded-2xl"
                           />
                         </div>
-                        <div className="flex flex-col w-1/2 ml-3 justify-between py-2">
+                        <div className="flex flex-col md:w-1/2 w-65 ml-3 justify-between py-2">
                           <div className="flex flex-wrap">
                             <h3 className="flex-auto text-lg font-medium">
                               Social media creatives
@@ -128,7 +128,7 @@ export default function RecentWork() {
                             className="w-full object-cover lg:h-full rounded-2xl"
                           />
                         </div>
-                        <div className="flex flex-col w-1/2 ml-3 justify-between py-2">
+                        <div className="flex flex-col md:w-1/2 w-65 ml-3 justify-between py-2">
                           <div className="flex flex-wrap">
                             <h3 className="flex-auto text-lg font-medium">
                               Lead generation ad results

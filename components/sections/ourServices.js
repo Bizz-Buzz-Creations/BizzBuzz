@@ -1,13 +1,11 @@
 import React from "react";
-import { Search } from "lucide-react";
-import { SquareArrowOutUpRight } from "lucide-react";
 import Script from "next/script";
 
 export default function OurServices() {
   return (
     <>
-      <div className="mb-20 max-w-6xl mx-auto">
-        <h2 className="text-4xl font-bold mb-20 text-center">
+      <div className="mb-20 max-w-6xl mx-auto container">
+        <h2 className="md:text-4xl text-3xl font-bold mb-20 text-center">
           Our Digital Marketing Services
         </h2>
 
@@ -19,7 +17,7 @@ export default function OurServices() {
             <div class="glow opacity-0 transition-opacity duration-300"></div>
             <div class="p-6 flex flex-col h-full justify-between relative z-10">
               <div>
-                <h4 class="text-3xl font-bold text-white mb-4">
+                <h4 class="text-2xl font-bold text-white mb-4">
                   SEO Optimization
                 </h4>
                 <div class="bg-white/20 rounded-lg p-3">
@@ -45,7 +43,7 @@ export default function OurServices() {
             <div class="glow opacity-0 transition-opacity duration-300"></div>
             <div class="p-6 flex flex-col h-full justify-between relative z-10">
               <div>
-                <h4 class="text-3xl font-bold text-white mb-4">
+                <h4 class="text-2xl font-bold text-white mb-4">
                   Website Development
                 </h4>
                 <div class="bg-white/20 rounded-lg p-3">
@@ -71,7 +69,7 @@ export default function OurServices() {
             <div class="glow opacity-0 transition-opacity duration-300"></div>
             <div class="p-6 flex flex-col h-full justify-between relative z-10">
               <div>
-                <h4 class="text-3xl font-bold text-white mb-4">
+                <h4 class="text-2xl font-bold text-white mb-4">
                   Social Media Marketing
                 </h4>
                 <div class="bg-white/20 rounded-lg p-3">
@@ -97,7 +95,7 @@ export default function OurServices() {
             <div class="glow opacity-0 transition-opacity duration-300"></div>
             <div class="p-6 flex flex-col h-full justify-between relative z-10">
               <div>
-                <h4 class="text-3xl font-bold text-white mb-4">
+                <h4 class="text-2xl font-bold text-white mb-4">
                   Google Ads & Lead Generation
                 </h4>
                 <div class="bg-white/20 rounded-lg p-3">
@@ -123,7 +121,7 @@ export default function OurServices() {
             <div class="glow opacity-0 transition-opacity duration-300"></div>
             <div class="p-6 flex flex-col h-full justify-between relative z-10">
               <div>
-                <h4 class="text-3xl font-bold text-white mb-4">
+                <h4 class="text-2xl font-bold text-white mb-4">
                   Branding & Graphics Design
                 </h4>
                 <div class="bg-white/20 rounded-lg p-3">
@@ -149,7 +147,7 @@ export default function OurServices() {
             <div class="glow opacity-0 transition-opacity duration-300"></div>
             <div class="p-6 flex flex-col h-full justify-between relative z-10">
               <div>
-                <h4 class="text-3xl font-bold text-white mb-4">
+                <h4 class="text-2xl font-bold text-white mb-4">
                   Content & Blog Writing
                 </h4>
                 <div class="bg-white/20 rounded-lg p-3">

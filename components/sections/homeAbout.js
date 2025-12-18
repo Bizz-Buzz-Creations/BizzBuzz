@@ -3,11 +3,10 @@ import Image from "next/image";
 
 export default function HomeAbout() {
   return (
-    <div className="container px-10 flex flex-wrap justify-center gap-20 items-center mx-auto mb-20">
-      <Image src="/banner.png" alt="banner" width={500} height={400} />
-      <div>
+    <div className="container py-10 flex flex-wrap justify-center gap-20 items-center mx-auto mb-20">
+      <div className="md:text-start text-center">
         <p>About Us</p>
-        <h2 className="text-4xl font-bold mb-4">We Are BizzBuzz Creations</h2>
+        <h2 className="md:text-4xl text-3xl font-bold mb-4">We Are BizzBuzz Creations</h2>
         <p className="max-w-lg mb-6">
           BizzBuzz Creations is a full-service digital marketing agency
           dedicated to helping businesses thrive in the online world. Our team
@@ -20,6 +19,7 @@ export default function HomeAbout() {
           </span>
         </button>
       </div>
+      <Image src="/banner.png" alt="banner" width={400} height={400} />
     </div>
   );
 }

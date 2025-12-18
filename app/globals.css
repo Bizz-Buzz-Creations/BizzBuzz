@@ -133,11 +133,6 @@
   }
 }
 
-/* carousel style */
-.slick-slide {
-  padding: 0 40px;
-}
-
 /* service card style */
 .tilt-card {
   transform-style: preserve-3d;

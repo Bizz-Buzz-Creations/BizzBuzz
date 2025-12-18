@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function WhatMAkesUs() {
   return (
-    <div className="container mx-auto px-10 flex flex-wrap justify-center gap-10 items-center mb-20">
+    <div className="container mx-auto flex flex-wrap justify-center gap-10 items-center mb-20">
       <div>
         <h2 className="text-5xl font-bold mb-4 max-w-2xl">
           How Our Digital Services Transform Your Marketing
@@ -22,7 +22,7 @@ export default function WhatMAkesUs() {
         data-accordion="collapse"
         data-active-classes="bg-neutral-primary text-heading"
         data-inactive-classes="text-body"
-        className="w-sm"
+        className="w-full md:w-2xs"
       >
         <h2 id="accordion-flush-heading-1">
           <button

@@ -35,9 +35,12 @@ export default function Reviews() {
     },
   ];
   return (
-    <div className="mb-20">
+    <div className="mb-20 container mx-auto">
       <h2 className="text-3xl font-bold text-center mb-5">Customer Reviews</h2>
-      <div class="max-w-6xl mx-auto relative" id="carousel-container">
+      <div
+        class="md:max-w-6xl max-w-2xl mx-auto relative"
+        id="carousel-container"
+      >
         <div class="overflow-hidden py-4">
           <div
             id="track"
@@ -103,7 +106,7 @@ export default function Reviews() {
 
         <button
           id="prevBtn"
-          class="absolute top-1/2 left-0 -translate-y-1/2 -translate-x-2 md:-translate-x-6 bg-white p-3 rounded-full shadow-lg text-blue-900 hover:bg-blue-50 focus:outline-none z-10 transition"
+          class="absolute cursor-pointer top-1/2 left-0 -translate-y-1/2 -translate-x- xl:-translate-x-4 bg-white p-3 rounded-full shadow-lg text-blue-900 hover:bg-blue-50 focus:outline-none z-10 transition"
         >
           <svg
             class="w-6 h-6"
@@ -121,7 +124,7 @@ export default function Reviews() {
         </button>
         <button
           id="nextBtn"
-          class="absolute top-1/2 right-0 -translate-y-1/2 translate-x-2 md:translate-x-6 bg-white p-3 rounded-full shadow-lg text-blue-900 hover:bg-blue-50 focus:outline-none z-10 transition"
+          class="absolute cursor-pointer top-1/2 right-0 -translate-y-1/2 translate-x- xl:translate-x-4 bg-white p-3 rounded-full shadow-lg text-blue-900 hover:bg-blue-50 focus:outline-none z-10 transition"
         >
           <svg
             class="w-6 h-6"

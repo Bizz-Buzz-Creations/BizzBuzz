@@ -3,7 +3,7 @@ import { Star } from "lucide-react";
 export default function Counter() {
   return (
     <div
-      className="flex flex-wrap items-center justify-center mb-20 gap-20 p-20 text-white"
+      className="flex flex-wrap items-center justify-center mb-20 gap-20 py-20 px-10 text-white"
       style={{
         background: "linear-gradient(to right, #434343 0%, black 100%);",
       }}

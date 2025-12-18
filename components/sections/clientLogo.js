@@ -5,7 +5,7 @@ export default function clientLogo() {
   return (
     <>
       <div
-        className="py-10 pb-10 mb-10  bg-gray-200"
+        className="py-10 pb-10 mb-10 bg-gray-200"
         style={{
           background: "#ffffff",
           backgroundImage:
@@ -15,7 +15,7 @@ export default function clientLogo() {
       >
         <div className="max-w-3xl mx-auto">
           <h2 className="text-3xl font-bold text-center mb-10">Our Clients</h2>
-          <div className="flex flex-wrap gap-10 ">
+          <div className="flex flex-wrap gap-10 justify-center items-center">
             <Image
               src="/parivartanlogo.png"
               width={150}
