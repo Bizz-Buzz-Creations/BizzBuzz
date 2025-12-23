@@ -90,6 +90,14 @@ export default function Navbar() {
                     AI Services
                   </Link>
                 </li>
+                <li>
+                  <Link
+                    href="/digital-marketing"
+                    class="inline-flex items-center w-full p-2 hover:bg-gray-400 hover:text-black rounded"
+                  >
+                    Digital Marketing
+                  </Link>
+                </li>
               </ul>
             </div>
           </div>

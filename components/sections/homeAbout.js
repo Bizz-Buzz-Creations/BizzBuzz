@@ -13,8 +13,8 @@ export default function HomeAbout() {
           of experts specializes in creating customized strategies that drive
           results and deliver measurable ROI.
         </p>
-        <button class="relative cursor-pointer inline-flex cursor-pointe r items-center justify-center p-0.5 overflow-hidden text-sm font-medium text-heading rounded-base group bg-gradient-to-br from-cyan-500 to-blue-500 group-hover:from-cyan-500 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-cyan-200 dark:focus:ring-cyan-800">
-          <span class=" relative text-black px-4 py-2.5 transition-all ease-in duration-75 bg-neutral-primary-soft rounded-base group-hover:bg-transparent group-hover:dark:bg-transparent hover:dark:text-white leading-5">
+        <button className="relative cursor-pointer inline-flex cursor-pointe r items-center justify-center p-0.5 overflow-hidden text-sm font-medium text-heading rounded-base group bg-gradient-to-br from-cyan-500 to-blue-500 group-hover:from-cyan-500 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-cyan-200 dark:focus:ring-cyan-800">
+          <span className=" relative text-black px-4 py-2.5 transition-all ease-in duration-75 bg-neutral-primary-soft rounded-base group-hover:bg-transparent group-hover:dark:bg-transparent hover:dark:text-white leading-5">
             Learn More
           </span>
         </button>

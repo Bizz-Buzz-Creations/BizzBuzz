@@ -5,7 +5,7 @@ export default function Counter() {
     <div
       className="flex flex-wrap items-center justify-center mb-20 gap-20 py-20 px-10 text-white"
       style={{
-        background: "linear-gradient(to right, #434343 0%, black 100%);",
+        background: "linear-gradient(to right, #434343 0%, black 100%)",
       }}
     >
       <div className="flex flex-col justify-center items-center">
