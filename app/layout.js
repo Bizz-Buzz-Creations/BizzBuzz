@@ -3,6 +3,7 @@ import "./globals.css";
 import Script from "next/script";
 import Navbar from "../components/layout/navbar";
 import Footer from "../components/layout/footer";
+import { ToastContainer, Bounce } from "react-toastify";
 
 const firaSans = Fira_Sans({
   subsets: ["latin"],
@@ -33,6 +34,19 @@ export default function RootLayout({ children }) {
         {children}
         <Footer />
         <Script src="/js/flowbite.min.js" strategy="afterInteractive" />
+        <ToastContainer
+          position="top-right"
+          autoClose={5000}
+          hideProgressBar={false}
+          newestOnTop={false}
+          closeOnClick={false}
+          rtl={false}
+          pauseOnFocusLoss
+          draggable
+          pauseOnHover
+          theme="light"
+          transition={Bounce}
+        />
       </body>
     </html>
   );

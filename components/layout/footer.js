@@ -24,7 +24,7 @@ export default function Footer() {
             <div className="mt-4 space-y-4 flex space-x-4">
               <a
                 className="cursor-pointer transition-transform duration-300 hover:scale-110"
-                href="https://www.instagram.com/yourusername"
+                href="https://www.instagram.com/bizzbuzzcreations"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -41,7 +41,7 @@ export default function Footer() {
               </a>
               <a
                 className="cursor-pointer transition-transform duration-300 hover:scale-110"
-                href="https://www.instagram.com/yourusername"
+                href="https://www.youtube.com/@bizzbuzzcreations"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -58,7 +58,7 @@ export default function Footer() {
               </a>
               <a
                 className="cursor-pointer transition-transform duration-300 hover:scale-110"
-                href="https://www.instagram.com/yourusername"
+                href="https://www.facebook.com/bizzbuzzcreation/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -75,7 +75,7 @@ export default function Footer() {
               </a>
               <a
                 className="cursor-pointer transition-transform duration-300 hover:scale-110"
-                href="https://www.instagram.com/yourusername"
+                href="https://t.me/bizzbuzzcreations"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -92,7 +92,7 @@ export default function Footer() {
               </a>
               <a
                 className="cursor-pointer transition-transform duration-300 hover:scale-110"
-                href="https://www.instagram.com/yourusername"
+                href="https://www.linkedin.com/company/bizz-buzz-creations"
                 target="_blank"
                 rel="noopener noreferrer"
               >

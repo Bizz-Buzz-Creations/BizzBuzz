@@ -208,10 +208,7 @@ export default function About() {
       </div>
 
       {/* industries we serve */}
-      <div
-        style={{ backgroundImage: 'url("/blue-bg.jpg")' }}
-        className="container mb-20 bg-cover bg-center py-20 pt-10 max-w-6xl mx-auto px-10 rounded-2xl border border-[#A1C5CC] shadow-lg shadow-gray-400"
-      >
+      <div className="industries container bg-[#c2dae0] mb-20 py-20 pt-10 max-w-6xl mx-auto px-10 rounded-2xl border border-[#A1C5CC] shadow-lg shadow-gray-400">
         <h2 className="text-3xl font-bold mb-15 text-center">
           Industries We Serve
         </h2>

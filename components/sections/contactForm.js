@@ -1,6 +1,7 @@
 "use client";
 import { sendMail } from "@/actions/serverActions";
 import React, { useState } from "react";
+import { toast, Bounce } from "react-toastify";
 
 export default function ContactForm() {
   const [formData, setFormData] = useState({
@@ -18,20 +19,38 @@ export default function ContactForm() {
   };
 
   const handleSubmit = async () => {
-    if (
-      !formData?.name ||
-      !formData?.email ||
-      !formData?.subject ||
-      !formData?.message
-    ) {
-      return;
-    }
-    await sendMail({
+    const response = await sendMail({
       name: formData?.name,
       email: formData?.email,
       subject: formData?.subject,
       text: formData?.message,
     });
+
+    if (response?.success) {
+      toast.success(response.message, {
+        position: "top-right",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: false,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "light",
+        transition: Bounce,
+      });
+    } else {
+      toast.error(response.message, {
+        position: "top-right",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: false,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "light",
+        transition: Bounce,
+      });
+    }
   };
   return (
     <div>
