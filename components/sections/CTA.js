@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 export default function CTA() {
@@ -19,9 +20,11 @@ export default function CTA() {
             in UP? Contact Bizz Buzz Creations today and let’s build your
             success story together.
           </p>
-          <button className="px-4 py-2 bg-transparent text-white font-bold border cursor-pointer rounded-full transform hover:scale-95 transition">
-            Book a call
-          </button>
+          <Link href="/contact">
+            <button className="px-4 py-2 bg-transparent text-white font-bold border cursor-pointer rounded-full transform hover:scale-95 transition">
+              Book a call
+            </button>
+          </Link>
         </div>
       </div>
     </div>

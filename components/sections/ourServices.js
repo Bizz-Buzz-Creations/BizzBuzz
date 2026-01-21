@@ -1,5 +1,6 @@
 import React from "react";
 import OurServices_JS from "./ourServices_JS";
+import Link from "next/link";
 
 export default function OurServices() {
   return (
@@ -30,9 +31,11 @@ export default function OurServices() {
                 </div>
               </div>
               <div className="space-y-4">
-                <button className="w-full py-2 bg-white text-black rounded-lg font-semibold transform transition hover:scale-100 active:scale-100">
-                  Know More
-                </button>
+                <Link href="/search-engine-optimization">
+                  <button className="w-full py-2 bg-white text-black rounded-lg font-semibold transform transition hover:scale-100 active:scale-100">
+                    Know More
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -56,9 +59,11 @@ export default function OurServices() {
                 </div>
               </div>
               <div className="space-y-4">
-                <button className="w-full py-2 bg-white text-black rounded-lg font-semibold transform transition hover:scale-100 active:scale-100">
-                  Know More
-                </button>
+                <Link href="/web-development">
+                  <button className="w-full py-2 bg-white text-black rounded-lg font-semibold transform transition hover:scale-100 active:scale-100">
+                    Know More
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -82,9 +87,11 @@ export default function OurServices() {
                 </div>
               </div>
               <div className="space-y-4">
-                <button className="w-full py-2 bg-white text-black rounded-lg font-semibold transform transition hover:scale-100 active:scale-100">
-                  Know More
-                </button>
+                <Link href="/social-media-marketing">
+                  <button className="w-full py-2 bg-white text-black rounded-lg font-semibold transform transition hover:scale-100 active:scale-100">
+                    Know More
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -108,9 +115,11 @@ export default function OurServices() {
                 </div>
               </div>
               <div className="space-y-4">
-                <button className="w-full py-2 bg-white text-black rounded-lg font-semibold transform transition hover:scale-100 active:scale-100">
-                  Know More
-                </button>
+                <Link href="/search-engine-optimization">
+                  <button className="w-full py-2 bg-white text-black rounded-lg font-semibold transform transition hover:scale-100 active:scale-100">
+                    Know More
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -134,9 +143,11 @@ export default function OurServices() {
                 </div>
               </div>
               <div className="space-y-4">
-                <button className="w-full py-2 bg-white text-black rounded-lg font-semibold transform transition hover:scale-100 active:scale-100">
-                  Know More
-                </button>
+                <Link href="/search-engine-optimization">
+                  <button className="w-full py-2 bg-white text-black rounded-lg font-semibold transform transition hover:scale-100 active:scale-100">
+                    Know More
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -160,9 +171,11 @@ export default function OurServices() {
                 </div>
               </div>
               <div className="space-y-4">
-                <button className="w-full py-2 bg-white text-black rounded-lg font-semibold transform transition hover:scale-100 active:scale-100">
-                  Know More
-                </button>
+                <Link href="/search-engine-optimization">
+                  <button className="w-full py-2 bg-white text-black rounded-lg font-semibold transform transition hover:scale-100 active:scale-100">
+                    Know More
+                  </button>
+                </Link>
               </div>
             </div>
           </div>

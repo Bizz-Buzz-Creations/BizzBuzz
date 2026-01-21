@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function WhatMAkesUs() {
   return (
@@ -12,9 +13,11 @@ export default function WhatMAkesUs() {
         <p className="max-w-lg mb-6">
           Our Strategic Approach That Delivers Real Results
         </p>
-        <button className="px-4 py-2 me-2 bg-white text-black font-bold border cursor-pointer rounded-full transform hover:scale-95 hover:text-white hover:bg-black transition">
-          Contact Us
-        </button>
+        <Link href="/contact">
+          <button className="px-4 py-2 me-2 bg-white text-black font-bold border cursor-pointer rounded-full transform hover:scale-95 hover:text-white hover:bg-black transition">
+            Contact Us
+          </button>
+        </Link>
       </div>
 
       <div

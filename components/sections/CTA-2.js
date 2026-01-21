@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 export default function CTA2() {
@@ -20,12 +21,16 @@ export default function CTA2() {
             YOUR REVENUE?
           </h2>
           <div className="bg-white rounded-3xl absolute bottom-0 left-0 p-1">
-            <button className="px-4 py-2 me-2 sm:inline hidden bg-white text-black font-bold border border-gray-400 cursor-pointer rounded-full transform hover:scale-95 transition">
-              Get Free Marketing Audit
-            </button>
-            <button className="px-6 py-2 bg-black text-white font-bold border cursor-pointer rounded-full transform hover:scale-95 transition">
-              Talk to Experts
-            </button>
+            <Link href="/contact">
+              <button className="px-4 py-2 me-2 sm:inline hidden bg-white text-black font-bold border border-gray-400 cursor-pointer rounded-full transform hover:scale-95 transition">
+                Get Free Marketing Audit
+              </button>
+            </Link>
+            <Link href="/contact">
+              <button className="px-6 py-2 bg-black text-white font-bold border cursor-pointer rounded-full transform hover:scale-95 transition">
+                Talk to Experts
+              </button>
+            </Link>
           </div>
         </div>
       </div>
