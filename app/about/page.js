@@ -31,29 +31,24 @@ export default function About() {
       {/* Who we are */}
       <div className="">
         <h2 className="text-3xl font-bold mb-10 text-center">Who We Are</h2>
-        <div className="mx-auto 2xl:px-15 px-5 flex flex-wrap justify-center items-center gap-15 mb-20">
-          <Image
-            src="/banner.png"
-            alt="team"
-            width={500}
-            height={500}
-          />
+        <div className="mx-auto 2xl:px-15 px-5 flex lg:flex-row flex-col justify-center items-center gap-15 mb-20">
+          <Image src="/banner.png" alt="team" width={500} height={500} />
           <div>
-            <p className="text-lg leading-relaxed text-center max-w-xl mx-auto mb-4">
+            <p className="leading-relaxed lg:text-left text-center max-w-xl mx-auto mb-4">
               A place where innovation meets excellence! For almost a year,
               we’ve been helping businesses with a full range of services
               designed to drive success. With a team of skilled experts, we
               create solutions that set new standards and encourage steady
               growth.
             </p>
-            <p className="text-lg leading-relaxed text-center max-w-xl mx-auto mb-4">
+            <p className="leading-relaxed lg:text-left text-center max-w-xl mx-auto mb-4">
               At Bizz Buzz Creation, we know how quickly things change in
               business—and we’re built to keep up. From helping startups get
               noticed online to supporting established brands with fresh ideas,
               we’ve got you covered. If you’re looking for digital marketing
               services in Prayagraj, we’re right here to help you grow.
             </p>
-            <p className="text-lg leading-relaxed text-center max-w-xl mx-auto">
+            <p className="leading-relaxed lg:text-left text-center max-w-xl mx-auto">
               We’ve spent the past year helping businesses grow with sharp
               strategies and real results. Wondering if your marketing is doing
               its job? Check out our take: 10 Ways to Tell if Your Marketing is
@@ -64,7 +59,7 @@ export default function About() {
       </div>
 
       {/* Our Mission & Vision */}
-      <div className="mx-auto 2xl:px-15 px-5 flex flex-wrap justify-center items-start gap-15 mb-25">
+      <div className="mx-auto 2xl:px-15 px-5 flex lg:flex-row flex-col justify-center items-start gap-15 mb-25">
         <div>
           <h2 className="text-3xl font-bold mb-10 text-center">
             Our Mission and Vision
@@ -202,39 +197,6 @@ export default function About() {
                 <strong>4</strong>
               </span>
             </div>
-          </div>
-        </div>
-      </div>
-
-      {/* industries we serve */}
-      <div className="industries container bg-[#c2dae0] mb-20 py-20 pt-10 max-w-6xl mx-auto px-10 rounded-2xl border border-[#A1C5CC] shadow-lg shadow-gray-400">
-        <h2 className="text-3xl font-bold mb-15 text-center">
-          Industries We Serve
-        </h2>
-        <div className="mx-auto max-w-5xl px-10 flex flex-wrap justify-center items-center gap-15">
-          <div className="flex flex-col justify-center items-center gap-2 w-[250px]">
-            <Heart size={40} />
-            <p>Wedding & Event Businesses</p>
-          </div>
-          <div className="flex flex-col justify-center items-center gap-2 w-[250px]">
-            <Building size={40} />
-            <p>Real Estate & Construction</p>
-          </div>
-          <div className="flex flex-col justify-center items-center gap-2 w-[250px]">
-            <GraduationCap size={40} />
-            <p>Education & Coaching Institutes</p>
-          </div>
-          <div className="flex flex-col justify-center items-center gap-2 w-[250px]">
-            <Hospital size={40} />
-            <p>Healthcare & Wellness</p>
-          </div>
-          <div className="flex flex-col justify-center items-center gap-2 w-[250px]">
-            <MapPin size={40} />
-            <p>Local Service Providers</p>
-          </div>
-          <div className="flex flex-col justify-center items-center gap-2 w-[250px]">
-            <Handshake size={40} />
-            <p>Startups, SMEs & Personal Brands</p>
           </div>
         </div>
       </div>

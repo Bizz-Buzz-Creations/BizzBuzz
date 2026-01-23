@@ -16,7 +16,7 @@ export default function SearchEngineOptimization() {
         img="/seo2.webp"
       />
 
-      <div className="flex flex-wrap px-5 gap-5 lg:gap-20 justify-center items-center mb-10 mt-10">
+      <div className="flex lg:flex-row flex-col px-5 gap-5 lg:gap-20 justify-center items-center mb-10 mt-10">
         <div className="">
           <Image
             className="rounded-lg"
@@ -26,7 +26,7 @@ export default function SearchEngineOptimization() {
             alt="image"
           />
         </div>
-        <div className="max-w-xl text-center md:text-left">
+        <div className="max-w-xl text-center lg:text-left">
           <h2 className="text-3xl font-bold mb-3">
             Best Local SEO services in prayagraj
           </h2>
@@ -81,8 +81,8 @@ export default function SearchEngineOptimization() {
         </div>
       </div>
 
-      <div className="flex flex-wrap lg:gap-20 justify-center px-5 items-center mb-20 py-20 bg-[#e8e8e8]">
-        <div className="max-w-xl text-center md:text-left">
+      <div className="flex lg:flex-row flex-col lg:gap-20 justify-center px-5 items-center mb-20 py-20 bg-[#e8e8e8]">
+        <div className="max-w-xl text-center lg:text-left">
           <h2 className="text-3xl font-bold mb-3">Why SEO is Important?</h2>
           <p>
             In today’s digital world, SEO is not a luxury, it’s a necessity. A

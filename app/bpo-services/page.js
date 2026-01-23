@@ -17,7 +17,7 @@ export default function BPO() {
         img="/bpo2.webp"
       />
 
-      <div className="flex flex-wrap px-5 lg:gap-20 justify-center items-center mb-10 mt-10">
+      <div className="flex lg:flex-row flex-col px-5 lg:gap-20 justify-center items-center mb-10 mt-10">
         <div className="">
           <Image
             className="rounded-lg"
@@ -83,7 +83,7 @@ export default function BPO() {
         </div>
       </div>
 
-      <div className="flex flex-wrap px-5 gap-10 lg:gap-20 justify-center items-center mb-20 py-20 bg-[#e8e8e8]">
+      <div className="flex lg:flex-row flex-col px-5 gap-10 lg:gap-20 justify-center items-center mb-20 py-20 bg-[#e8e8e8]">
         <div className="max-w-xl text-center lg:text-left">
           <h2 className="text-3xl font-bold mb-3">
             Why Choose BBC for Business Processing Outsourcing (BPO)

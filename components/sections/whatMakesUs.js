@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function WhatMAkesUs() {
   return (
-    <div className="container mx-auto p-4 flex flex-wrap justify-center gap-10 items-center mb-20">
+    <div className="container mx-auto p-4 flex flex-col lg:flex-row justify-center gap-10 items-center mb-20">
       <div>
         <h2 className="md:text-5xl text-3xl font-bold mb-4 max-w-2xl">
           How Our Digital Services Transform Your Marketing

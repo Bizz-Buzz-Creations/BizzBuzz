@@ -12,37 +12,42 @@ export default function ServicesHero({ heading, description, img }) {
         background:
           "radial-gradient(circle, rgba(86, 167, 229, 1) 0%, rgba(4, 99, 219, 1) 70%)",
       }}
-      className="px-5 pt-30 text-white text-center flex flex-col justify-center items-center h-[100vh]"
+      className="min-h-screen text-white lg:pt-24 pt-50 pb-12 px-6 md:px-12 flex flex-col lg:flex-row items-center justify-center gap-12"
     >
       {(new Date().getMonth() === 11 || new Date().getMonth() === 0) && (
         <div className="absolute inset-0 z-0">
-          <Snowfall color="white" />
+          <Snowfall color="#dee4fd" />
         </div>
       )}
-
-      <h1 className="md:text-5xl text-3xl mb-6">{heading}</h1>
-      <p className="max-w-3xl mx-auto mb-8">{description}</p>
-      <Link href="/contact">
-        <button className="animated-button mx-auto mb-10">
-          <svg
-            viewBox="0 0 24 24"
-            className="arr-2"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path>
-          </svg>
-          <span className="text">Start Now</span>
-          <span className="circle"></span>
-          <svg
-            viewBox="0 0 24 24"
-            className="arr-1"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path>
-          </svg>
-        </button>
-      </Link>
-      <div class="lg:w-lg relative animate-slide-left delay-200">
+      <div>
+        <h1 className="sm:text-5xl md:max-w-2xl lg:text-left text-center text-3xl mb-6">
+          {heading}
+        </h1>
+        <p className="md:max-w-2xl lg:text-left text-center mb-8">
+          {description}
+        </p>
+        <Link href="/contact">
+          <button className="animated-button lg:mx-0 mx-auto mb-10">
+            <svg
+              viewBox="0 0 24 24"
+              className="arr-2"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path>
+            </svg>
+            <span className="text">Start Now</span>
+            <span className="circle"></span>
+            <svg
+              viewBox="0 0 24 24"
+              className="arr-1"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path>
+            </svg>
+          </button>
+        </Link>
+      </div>
+      <div class="lg:w-lg  relative animate-slide-left delay-200">
         <div class="absolute -inset-4 bg-berry-green/20 rounded-3xl -z-10"></div>
         <div class="relative rounded-3xl overflow-hidden shadow-2xl transform rotate-1 hover:rotate-0 transition-transform duration-500">
           <Image
@@ -50,7 +55,7 @@ export default function ServicesHero({ heading, description, img }) {
             alt="about-hero-img"
             width={400}
             height={400}
-            class="w-full h-auto object-cover"
+            className="w-full  h-auto object-cover"
           />
         </div>
 

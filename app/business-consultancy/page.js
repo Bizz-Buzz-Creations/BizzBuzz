@@ -17,7 +17,7 @@ export default function BusinessConsultancy() {
         img="/businesscons.webp"
       />
 
-      <div className="flex flex-wrap px-5 gap-10 lg:gap-20 justify-center items-center mb-20 mt-10">
+      <div className="flex lg:flex-row flex-col px-5 gap-10 lg:gap-20 justify-center items-center mb-20 mt-10">
         <div className="">
           <Image
             className="rounded-lg"
@@ -84,7 +84,7 @@ export default function BusinessConsultancy() {
         </div>
       </div>
 
-      <div className="flex flex-wrap px-5 gap-10 lg:gap-20 justify-center items-center mb-20 py-20 bg-[#e8e8e8]">
+      <div className="flex lg:flex-row flex-col px-5 gap-10 lg:gap-20 justify-center items-center mb-20 py-20 bg-[#e8e8e8]">
         <div className="max-w-xl md:text-left">
           <h2 className="text-3xl font-bold mb-5">
             What Makes Business Consultancy Essential?

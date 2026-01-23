@@ -16,7 +16,7 @@ export default function SocialMediaMarketing() {
         img="/aiservice.webp"
       />
 
-      <div className="flex flex-wrap gap-10 lg:gap-20 justify-center items-center mb-20 mt-10">
+      <div className="flex lg:flex-row flex-col gap-10 lg:gap-20 justify-center items-center mb-20 mt-10">
         <div className="">
           <Image
             className="rounded-lg"
@@ -26,7 +26,7 @@ export default function SocialMediaMarketing() {
             alt="image"
           />
         </div>
-        <div className="max-w-xl text-center md:text-left">
+        <div className="max-w-xl text-center lg:text-left">
           <h2 className="text-3xl font-bold mb-3">The BizzBee AI Advantage</h2>
           <p>
             The BizzBee AI advantage lies in why top brands trust us to
@@ -113,8 +113,8 @@ export default function SocialMediaMarketing() {
         </div>
       </div>
 
-      <div className="flex flex-wrap px-5 gap-10 lg:gap-20 justify-center items-center mb-20 py-20 bg-[#e8e8e8]">
-        <div className="max-w-xl text-center md:text-left">
+      <div className="flex lg:flex-row flex-col px-5 gap-10 lg:gap-20 justify-center items-center mb-20 py-20 bg-[#e8e8e8]">
+        <div className="max-w-xl text-center lg:text-left">
           <h2 className="text-3xl font-bold mb-5">
             Let BizzBee AI Build Your Dream Website Effortlessly
           </h2>

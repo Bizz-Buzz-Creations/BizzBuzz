@@ -19,7 +19,7 @@ export default function digitalMarketing() {
         img="/digitalmarketing.webp"
       />
 
-      <div className="flex flex-wrap px-5 gap-5 lg:gap-20 justify-center items-center mb-10 mt-10">
+      <div className="flex lg:flex-row flex-col px-5 gap-5 lg:gap-20 justify-center items-center mb-10 mt-10">
         <div className="">
           <Image
             className="rounded-lg"
@@ -29,7 +29,7 @@ export default function digitalMarketing() {
             alt="image"
           />
         </div>
-        <div className="max-w-xl text-center md:text-left">
+        <div className="max-w-xl text-center lg:text-left">
           <h2 className="text-3xl font-bold mb-3">
             Why Choose BBC for Best Digital Marketing Services in Prayagraj
           </h2>
@@ -45,8 +45,8 @@ export default function digitalMarketing() {
 
       <OurServices />
 
-      <div className="flex flex-wrap lg:gap-20 justify-center items-center mb-5 md:mb-20 py-20 bg-[#e8e8e8]">
-        <div className="max-w-xl text-center md:text-left">
+      <div className="flex lg:flex-row flex-col lg:gap-20 justify-center items-center mb-5 md:mb-20 py-20 bg-[#e8e8e8]">
+        <div className="max-w-xl text-center lg:text-left">
           <h2 className="text-3xl font-bold mb-3">How We Work</h2>
           <p>
             We begin by understanding your goals by carefully listening to your

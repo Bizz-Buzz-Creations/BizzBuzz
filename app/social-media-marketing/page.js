@@ -16,7 +16,7 @@ export default function SocialMediaMarketing() {
         img="/socialmedia (2).webp"
       />
 
-      <div className="flex flex-wrap px-5 lg:gap-20 justify-center items-center mb-10 mt-10">
+      <div className="flex lg:flex-row flex-col px-5 lg:gap-20 justify-center items-center mb-10 mt-10">
         <div className="">
           <Image
             className="rounded-lg"
@@ -26,7 +26,7 @@ export default function SocialMediaMarketing() {
             alt="image"
           />
         </div>
-        <div className="max-w-xl text-center md:text-left">
+        <div className="max-w-xl text-center lg:text-left">
           <h2 className="text-3xl font-bold mb-3">
             Best Social Media Marketing Services in Prayagraj
           </h2>
@@ -76,8 +76,8 @@ export default function SocialMediaMarketing() {
         </div>
       </div>
 
-      <div className="flex flex-wrap px-5 lg:gap-20 justify-center items-center mb-20 py-20 bg-[#e8e8e8]">
-        <div className="max-w-xl text-center md:text-left">
+      <div className="flex lg:flex-row flex-col px-5 lg:gap-20 justify-center items-center mb-20 py-20 bg-[#e8e8e8]">
+        <div className="max-w-xl">
           <h2 className="text-3xl font-bold mb-3">
             Why Social Media Marketing is Important?
           </h2>

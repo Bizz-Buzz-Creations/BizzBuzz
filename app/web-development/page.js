@@ -18,7 +18,7 @@ export default function WebDevelopment() {
         img="/web-dev.webp"
       />
 
-      <div className="flex flex-wrap lg:gap-20 justify-center items-center mb-10 px-5">
+      <div className="flex lg:flex-row flex-col lg:gap-20 justify-center items-center mb-10 px-5">
         <div className="">
           <Image
             className="rounded-lg"
@@ -66,7 +66,7 @@ export default function WebDevelopment() {
         </div>
       </div>
 
-      <div className="flex flex-wrap lg:gap-20 justify-center items-center mb-5 md:mb-20 px-5 py-20 bg-[#e8e8e8]">
+      <div className="flex lg:flex-row flex-col lg:gap-20 justify-center items-center mb-5 md:mb-20 px-5 py-20 bg-[#e8e8e8]">
         <div className="max-w-xl text-center lg:text-left">
           <h2 className="text-3xl font-bold mb-3">
             Why BBC is Trusted for Website Development Services in Prayagraj
