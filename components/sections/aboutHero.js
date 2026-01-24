@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function AboutHero() {
   return (
     <div
-      className="md:pt-50 pt-40 lg:text-left text-center text-white flex 2xl:px-15 px-5 lg:flex-row flex-col justify-center items-center bg-gray-100 pb-30 mb-10"
+      className="md:pt-50 pt-40 lg:text-left text-center text-white gap-10 flex 2xl:px-15 px-5 lg:flex-row flex-col justify-center items-center bg-gray-100 pb-30 mb-10"
       style={{
         background: "radial-gradient(circle at top, #1c1c1c, #000000)",
       }}
@@ -44,7 +44,7 @@ export default function AboutHero() {
         </Link>
       </div>
       <Image
-        src="/About-Us-Collage-scaled.webp"
+        src="/teamPic.webp"
         alt="about-hero-img"
         width={500}
         height={500}

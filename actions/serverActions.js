@@ -4,25 +4,24 @@ const SMTP_SERVER_HOST = process.env.SMTP_SERVER_HOST;
 const SMTP_SERVER_USERNAME = process.env.SMTP_SERVER_USERNAME;
 const SMTP_SERVER_PASSWORD = process.env.SMTP_SERVER_PASSWORD;
 const SITE_MAIL_RECIEVER = process.env.SITE_MAIL_RECIEVER;
+
 const transporter = nodemailer.createTransport({
   service: "gmail",
-  host: SMTP_SERVER_HOST,
-  port: 587,
-  secure: true,
   auth: {
     user: SMTP_SERVER_USERNAME,
     pass: SMTP_SERVER_PASSWORD,
   },
 });
 
-export async function sendMail({ name, email, subject, text, html }) {
+export async function sendMail({ name, email, subject, text }) {
   try {
     //  Verify SMTP connection
-    const isVerified = await transporter.verify();
+    await transporter.verify();
+    console.log("SMTP connection ready");
 
     // Send email
     const info = await transporter.sendMail({
-      from: `Bizzbuzz Website`,
+      from: `"BizzBuzz Website" <bizzbuzzcreation@gmail.com>`,
       to: SITE_MAIL_RECIEVER,
       subject: subject,
       html: `
@@ -46,7 +45,7 @@ export async function sendMail({ name, email, subject, text, html }) {
       message: "Message sent!",
     };
   } catch (error) {
-    console.error("Email send failed:", error?.message || error);
+    console.error("Email send failed:", error);
     return {
       success: false,
       message: "Failed to send message.",

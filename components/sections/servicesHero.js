@@ -47,9 +47,9 @@ export default function ServicesHero({ heading, description, img }) {
           </button>
         </Link>
       </div>
-      <div class="lg:w-lg  relative animate-slide-left delay-200">
-        <div class="absolute -inset-4 bg-berry-green/20 rounded-3xl -z-10"></div>
-        <div class="relative rounded-3xl overflow-hidden shadow-2xl transform rotate-1 hover:rotate-0 transition-transform duration-500">
+      <div className="lg:w-lg  relative animate-slide-left delay-200">
+        <div className="absolute -inset-4 bg-berry-green/20 rounded-3xl -z-10"></div>
+        <div className="relative rounded-3xl overflow-hidden shadow-2xl transform rotate-1 hover:rotate-0 transition-transform duration-500">
           <Image
             src={img}
             alt="about-hero-img"
@@ -60,20 +60,20 @@ export default function ServicesHero({ heading, description, img }) {
         </div>
 
         {/* <!-- Floating Berry Elements --> */}
-        <div class="absolute -top-6 -left-6 bg-white p-3 rounded-xl shadow-lg w-36 animate-float delay-300">
-          <div class="w-10 h-10 rounded-full bg-black/50 text-berry-red flex items-center justify-center mb-2">
+        <div className="absolute -top-6 -left-6 bg-white p-3 rounded-xl shadow-lg w-36 animate-float delay-300">
+          <div className="w-10 h-10 rounded-full bg-black/50 text-berry-red flex items-center justify-center mb-2">
             <Rocket />
           </div>
-          <h4 class="font-bold text-gray-800 text-sm">2× Speed</h4>
-          <p class="text-xs text-gray-600">Faster Results</p>
+          <h4 className="font-bold text-gray-800 text-sm">2× Speed</h4>
+          <p className="text-xs text-gray-600">Faster Results</p>
         </div>
 
-        <div class="absolute -bottom-6 -right-6 bg-white p-3 rounded-xl shadow-lg w-36 animate-float delay-400">
-          <div class="w-10 h-10 rounded-full bg-black/50 text-berry-green flex items-center justify-center mb-2">
+        <div className="absolute -bottom-6 -right-6 bg-white p-3 rounded-xl shadow-lg w-36 animate-float delay-400">
+          <div className="w-10 h-10 rounded-full bg-black/50 text-berry-green flex items-center justify-center mb-2">
             <Handshake />
           </div>
-          <h4 class="font-bold text-gray-800 text-sm">24/7 Support</h4>
-          <p class="text-xs text-gray-600">Always Available</p>
+          <h4 className="font-bold text-gray-800 text-sm">24/7 Support</h4>
+          <p className="text-xs text-gray-600">Always Available</p>
         </div>
       </div>
     </div>

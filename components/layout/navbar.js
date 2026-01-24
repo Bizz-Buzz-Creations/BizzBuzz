@@ -38,7 +38,7 @@ export default function Navbar() {
             {/*Service Dropdown menu  */}
             <div
               id="dropdown"
-              className="z-10 absolute right-0 top-7 hidden group-hover:block bg-gray-800 border border border-black rounded-base shadow-lg w-65 "
+              className="z-10 absolute right-0 top-6 hidden group-hover:block bg-gray-800 border border border-black rounded-base shadow-lg w-65 "
             >
               <ul
                 className="p-2 text-sm text-white font-medium"

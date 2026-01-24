@@ -6,7 +6,7 @@ export default function ServiceCard({ heading, description, imageUrl }) {
       className="relative p-3  w-md shadow-lg md:w-lg bg-white rounded-3xl flex overflow-hidden items-center min-w-[300px] cursor-pointer group"
       style={{
         backgroundSize: "600px",
-        backgroundImage: `url(/black-bg.jpg)`,
+        backgroundImage: `url(/blue-bg.webp)`,
       }}
     >
       <img
