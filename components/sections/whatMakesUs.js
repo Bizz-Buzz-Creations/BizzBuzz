@@ -5,19 +5,11 @@ import Link from "next/link";
 
 export default function WhatMAkesUs() {
   return (
-    <div className="container mx-auto p-4 flex flex-col lg:flex-row justify-center gap-10 items-center mb-20">
-      <div>
-        <h2 className="md:text-5xl text-3xl font-bold mb-4 max-w-2xl">
+    <div className="container mx-auto p-4 flex flex-col justify-center gap-5 items-center mb-20">
+      <div className=" text-center">
+        <h2 className="text-3xl md:text-4xl font-bold mb-10 max-w-4xl">
           How Our Digital Services Transform Your Marketing
         </h2>
-        <p className="max-w-lg mb-6">
-          Our Strategic Approach That Delivers Real Results
-        </p>
-        <Link href="/contact">
-          <button className="px-4 py-2 me-2 bg-white text-black font-bold border cursor-pointer rounded-full transform hover:scale-95 hover:text-white hover:bg-black transition">
-            Contact Us
-          </button>
-        </Link>
       </div>
 
       <div
@@ -25,7 +17,7 @@ export default function WhatMAkesUs() {
         data-accordion="collapse"
         data-active-classes="bg-neutral-primary text-heading"
         data-inactive-classes="text-body"
-        className="w-full md:w-2xs"
+        className="w-full max-w-4xl"
       >
         <h2 id="accordion-flush-heading-1">
           <button

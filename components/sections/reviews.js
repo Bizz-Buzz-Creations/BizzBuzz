@@ -48,7 +48,7 @@ export default function Reviews() {
           >
             {reviews.map((item, index) => (
               <div key={index} className="min-w-full md:min-w-[33.33%] p-4">
-                <div className="group bg-white rounded-2xl shadow-lg p-8 text-center h-full border border-gray-100 cursor-pointer transition-all duration-300 hover:bg-black/95 hover:scale-105 hover:shadow-2xl">
+                <div className="group bg-white rounded-2xl shadow-lg p-8 text-center h-full border border-gray-100 cursor-pointer transition-all duration-300 hover:bg-[#0B60B0] hover:scale-105 hover:shadow-2xl">
                   <div className="bg-purple-100 w-20 h-20 mx-auto rounded-full flex items-center justify-center mb-2 transition-colors duration-300 group-hover:bg-white">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
