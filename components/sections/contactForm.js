@@ -7,6 +7,7 @@ export default function ContactForm() {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
+    contact: "",
     subject: "",
     message: "",
   });
@@ -24,6 +25,7 @@ export default function ContactForm() {
       email: formData?.email,
       subject: formData?.subject,
       text: formData?.message,
+      contact: formData?.contact,
     });
 
     if (response?.success) {
@@ -109,6 +111,24 @@ export default function ContactForm() {
             id="subject"
             className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-black text-lg"
             placeholder="What is this regarding?"
+            required
+          />
+        </div>
+
+        <div>
+          <label
+            htmlFor="contact"
+            className="block text-lg font-medium text-black mb-2"
+          >
+            Contact Number
+          </label>
+          <input
+            onChange={handleChange}
+            name="contact"
+            type="number"
+            id="contact"
+            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-black text-lg"
+            placeholder="Your contact number"
             required
           />
         </div>

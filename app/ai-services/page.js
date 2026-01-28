@@ -1,7 +1,6 @@
 import ServicesHero from "@/components/sections/servicesHero";
 import React from "react";
 import Image from "next/image";
-import ServiceCard from "@/components/sections/serviceCard";
 import CTA2 from "@/components/sections/CTA-2";
 import WhyChooseUs from "@/components/sections/WhyChooseUs";
 import Counter from "@/components/sections/counter";

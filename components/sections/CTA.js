@@ -1,7 +1,56 @@
-import Link from "next/link";
-import React from "react";
+"use client";
+import { sendMail } from "@/actions/serverActions";
+import { SendHorizontal } from "lucide-react";
+import React, { useState } from "react";
+import { toast, Bounce } from "react-toastify";
 
 export default function CTA() {
+  const [formData, setFormData] = useState({
+    email: "",
+  });
+
+  const handleChange = (e) => {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value,
+    });
+  };
+
+  const handleSubmit = async () => {
+    const response = await sendMail({
+      name: "not given",
+      email: formData?.email,
+      subject: "Request for consultancy",
+      text: "Want to start a project",
+      contact: "not given",
+    });
+
+    if (response?.success) {
+      toast.success(response.message, {
+        position: "top-right",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: false,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "light",
+        transition: Bounce,
+      });
+    } else {
+      toast.error(response.message, {
+        position: "top-right",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: false,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "light",
+        transition: Bounce,
+      });
+    }
+  };
   return (
     <div className="px-5">
       <div
@@ -15,16 +64,43 @@ export default function CTA() {
           <h2 className="md:text-3xl text-2xl font-bold mb-5">
             Get Free Consultancy Now!
           </h2>
-          <p className="max-w-3xl mb-8">
+          <p className="max-w-3xl">
             Ready to grow your business with trusted digital marketing services
             in UP? Contact Bizz Buzz Creations today and let’s build your
             success story together.
           </p>
-          <Link href="/contact">
-            <button className="px-4 py-2 bg-transparent text-white font-bold border cursor-pointer rounded-full transform hover:scale-95 transition">
-              Book a call
-            </button>
-          </Link>
+          <form action={handleSubmit}>
+            <div className="max-w-[250px] md:max-w-[300px] relative">
+              <label
+                htmlFor="email"
+                className="block text-lg font-medium text-black mb-2"
+              >
+                Email Address
+              </label>
+              <input
+                onChange={handleChange}
+                name="email"
+                type="email"
+                id="email"
+                className="w-full px-4 py-3 border border-gray-300 rounded-full focus:outline-none focus:border-black text-lg"
+                placeholder="your@email.com"
+                required
+              />
+              <button
+                type="submit"
+                aria-label="Send message"
+                className="group absolute top-10 right-2 flex items-center justify-center cursor-pointer"
+              >
+                <span
+                  className="bg-black p-3 rounded-full text-white 
+                   transition-all duration-300 
+                   focus:outline-none focus:ring-2 focus:ring-black/50"
+                >
+                  <SendHorizontal className="w-5 h-5 transition-all duration-300 group-hover:translate-x-1" />
+                </span>
+              </button>
+            </div>
+          </form>
         </div>
       </div>
     </div>

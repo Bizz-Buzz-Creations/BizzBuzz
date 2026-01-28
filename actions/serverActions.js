@@ -13,7 +13,7 @@ const transporter = nodemailer.createTransport({
   },
 });
 
-export async function sendMail({ name, email, subject, text }) {
+export async function sendMail({ name, email, subject, text, contact }) {
   try {
     //  Verify SMTP connection
     await transporter.verify();
@@ -29,6 +29,7 @@ export async function sendMail({ name, email, subject, text }) {
       <div style="max-width:600px; margin:0 auto; background:#ffffff; border-radius:8px; padding:20px;">
         <p><strong>Name:</strong> ${name}</p>
         <p><strong>Email:</strong> ${email}</p>
+        <p><strong>Contact:</strong> ${contact}</p>
         <hr style="margin:15px 0;" />
         <p><strong>Message:</strong></p>
         <p style="line-height:1.6;">${text}</p>
