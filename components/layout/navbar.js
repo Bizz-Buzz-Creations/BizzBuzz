@@ -62,6 +62,14 @@ export default function Navbar() {
                 </li>
                 <li>
                   <Link
+                    href="/paid-marketing"
+                    className="inline-flex items-center w-full p-2 hover:bg-gray-400 hover:text-black rounded"
+                  >
+                    Paid Marketing
+                  </Link>
+                </li>
+                <li>
+                  <Link
                     href="/bpo-services"
                     className="inline-flex items-center w-full p-2 hover:bg-gray-400 hover:text-black rounded"
                   >
@@ -197,6 +205,18 @@ export default function Navbar() {
                       }}
                     >
                       Search Engine Optimization (SEO)
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/paid-marketing"
+                      className="inline-flex items-center w-full p-2 hover:bg-gray-400 focus:text-black rounded"
+                      onClick={() => {
+                        setOpen(!open);
+                        setOpenService(!openService);
+                      }}
+                    >
+                      Paid Marketing
                     </Link>
                   </li>
                   <li>

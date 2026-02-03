@@ -28,7 +28,7 @@ export default function OurServices() {
           Our Digital Marketing Services
         </h2>
 
-        <div className="flex flex-wrap sm:p-0 p-2 max-w-6xl mx-auto gap-10 items-center justify-center overflow-hidden">
+        <div className="flex flex-wrap sm:p-0 p-2 max-w-6xl mx-auto gap-10 items-center justify-center">
           <div className="group relative max-w-lg overflow-hidden rounded-2xl border border-gray-300 bg-white p-6 transition-all duration-300 hover:shadow-xl hover:scale-105 cursor-pointer">
             {/* Animated Left Border */}
             <span className="absolute left-0 bottom-0 h-0 w-1 bg-[#0B60B0] transition-all duration-500 group-hover:h-full" />
@@ -119,10 +119,7 @@ export default function OurServices() {
                 </p>
                 {/* Button */}
                 <div className="mt-6">
-                  <Link
-                    href="/social-media-marketing"
-                    className="inline-block"
-                  >
+                  <Link href="/social-media-marketing" className="inline-block">
                     <button className="rounded-lg py-2 flex gap-2 items-center text-sm font-medium text-[#0B60B0] transition hover:text-[#0B60B0]/80">
                       Know More <MoveRight size={16} />
                     </button>

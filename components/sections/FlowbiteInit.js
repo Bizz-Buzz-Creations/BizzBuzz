@@ -2,14 +2,13 @@
 
 import { usePathname } from "next/navigation";
 import { useEffect } from "react";
+import { initFlowbite } from "flowbite";
 
 export default function FlowbiteInit() {
   const pathname = usePathname();
 
   useEffect(() => {
-    if (typeof window !== "undefined" && window.initFlowbite) {
-      window.initFlowbite();
-    }
+    initFlowbite();
   }, [pathname]);
 
   return null;

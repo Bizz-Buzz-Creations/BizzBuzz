@@ -132,6 +132,14 @@ export default function Footer() {
                 </li>
                 <li>
                   <Link
+                    href="/paid-marketing"
+                    className="text-sm hover:text-gray-300 transition-colors"
+                  >
+                    Paid Marketing
+                  </Link>
+                </li>
+                <li>
+                  <Link
                     href="/bpo-services"
                     className="text-sm hover:text-gray-300 transition-colors"
                   >

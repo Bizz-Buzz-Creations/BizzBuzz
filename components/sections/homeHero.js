@@ -8,7 +8,7 @@ export default function HomeHero() {
         background:
           "radial-gradient(ellipse 80% 60% at 50% 0%, rgba(120, 180, 255, 0.25), transparent 70%), #000000",
       }}
-      className=" h-[90vh] mb-10"
+      className=" min-h-[90vh] mb-10 flex flex-col justify-center items-center"
     >
       <div className="sm:pt-30 pt-10 p-10 h-full flex items-center justify-center">
         <div className="z-10 text-center text-white">
