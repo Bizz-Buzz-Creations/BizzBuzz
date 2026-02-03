@@ -52,7 +52,10 @@ export default function OurServices() {
                 </p>
                 {/* Button */}
                 <div className="mt-6">
-                  <Link href="/web-development" className="inline-block">
+                  <Link
+                    href="/search-engine-optimization"
+                    className="inline-block"
+                  >
                     <button className="rounded-lg py-2 flex gap-2 items-center text-sm font-medium text-[#0B60B0] transition hover:text-[#0B60B0]/80">
                       Know More <MoveRight size={16} />
                     </button>
@@ -116,7 +119,10 @@ export default function OurServices() {
                 </p>
                 {/* Button */}
                 <div className="mt-6">
-                  <Link href="/web-development" className="inline-block">
+                  <Link
+                    href="/social-media-marketing"
+                    className="inline-block"
+                  >
                     <button className="rounded-lg py-2 flex gap-2 items-center text-sm font-medium text-[#0B60B0] transition hover:text-[#0B60B0]/80">
                       Know More <MoveRight size={16} />
                     </button>
@@ -139,7 +145,7 @@ export default function OurServices() {
               {/* Text */}
               <div>
                 <h3 className="text-lg font-semibold text-gray-900">
-                  Google Ads & Lead Generation
+                  Paid Marketing & Lead Generation
                 </h3>
                 <p className="mt-1 text-sm text-gray-600">
                   Experience the future of technology with our revolutionary
@@ -171,7 +177,7 @@ export default function OurServices() {
               {/* Text */}
               <div>
                 <h3 className="text-lg font-semibold text-gray-900">
-                  Branding & Graphics Design
+                  Digital Marketing
                 </h3>
                 <p className="mt-1 text-sm text-gray-600">
                   Experience the future of technology with our revolutionary
@@ -180,7 +186,7 @@ export default function OurServices() {
                 </p>
                 {/* Button */}
                 <div className="mt-6">
-                  <Link href="/web-development" className="inline-block">
+                  <Link href="/digital-marketing" className="inline-block">
                     <button className="rounded-lg py-2 flex gap-2 items-center text-sm font-medium text-[#0B60B0] transition hover:text-[#0B60B0]/80">
                       Know More <MoveRight size={16} />
                     </button>
@@ -203,7 +209,7 @@ export default function OurServices() {
               {/* Text */}
               <div>
                 <h3 className="text-lg font-semibold text-gray-900">
-                  Content & Blog Writing
+                  Business Consultancy Services
                 </h3>
                 <p className="mt-1 text-sm text-gray-600">
                   Experience the future of technology with our revolutionary
@@ -212,7 +218,7 @@ export default function OurServices() {
                 </p>
                 {/* Button */}
                 <div className="mt-6">
-                  <Link href="/web-development" className="inline-block">
+                  <Link href="/bpo-services" className="inline-block">
                     <button className="rounded-lg py-2 flex gap-2 items-center text-sm font-medium text-[#0B60B0] transition hover:text-[#0B60B0]/80">
                       Know More <MoveRight size={16} />
                     </button>
