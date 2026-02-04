@@ -14,7 +14,7 @@ export default function BPO() {
       <ServicesHero
         heading="BPO (Business Process Outsourcing) Services in Prayagraj"
         description="Looking for the best BPO in Prayagraj? Get expert support, cost savings, and efficient business solutions from trusted local providers."
-        img="/bpo2.webp"
+        img="/bpo.jpg"
       />
 
       <div className="flex lg:flex-row flex-col px-5 lg:gap-20 justify-center items-center mb-10 mt-10">
