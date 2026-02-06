@@ -1,10 +1,12 @@
 import PostingForm from "@/components/sections/postingForm";
-import React from "react";
+import { notFound } from "next/navigation";
 
-export default function JobPosting() {
-  return (
-    <div>
-      <PostingForm />
-    </div>
-  );
+export default async function JobPosting({ searchParams }) {
+  const { token } = await searchParams;
+
+  if (token !== process.env.ADMIN_PAGE_TOKEN) {
+    notFound();
+  }
+
+  return <PostingForm />;
 }
