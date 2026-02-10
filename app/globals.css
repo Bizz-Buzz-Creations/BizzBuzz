@@ -175,49 +175,6 @@ body {
   background-image: radial-gradient(circle at 50% -20%, #ffffff22, #0000000f);
 }
 
-/* logo carousel */
-
-.slider-wrapper {
-  width: 900px;
-  height: 120px;
-  overflow: hidden;
-  background: #ffffff;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-  cursor: grab;
-}
-
-.slider-wrapper:active {
-  cursor: grabbing;
-}
-
-.slider-track {
-  display: flex;
-  width: max-content;
-}
-
-.slide {
-  min-width: 150px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.slide img {
-  width: 60px;
-  height: 60px;
-  object-fit: contain;
-  margin-bottom: 6px;
-}
-
-.slide span {
-  font-size: 14px;
-  font-weight: 500;
-  color: #333;
-}
-
-
 @keyframes float {
   0%,
   100% {

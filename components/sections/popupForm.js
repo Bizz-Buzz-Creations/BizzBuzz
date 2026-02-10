@@ -102,15 +102,14 @@ export default function ConsultationPopup() {
           </h2>
           <button
             onClick={() => setOpen(false)}
-            className="absolute right-5 top-4 text-white"
+            className="cursor-pointer absolute right-5 top-4 text-white hover:scale-115 transition"
           >
-            <X size={20}/>
+            <X size={20} />
           </button>
         </div>
 
         {/* Content */}
         <div className="grid md:grid-cols-2 gap-8 p-4 md:p-8">
-          
           {/* LEFT SECTION (Hidden on Mobile) */}
           <div className="hidden md:block">
             <h3 className="text-2xl font-bold mb-1">BizzBuzz Creations</h3>
@@ -177,7 +176,7 @@ export default function ConsultationPopup() {
 
               <button
                 type="submit"
-                className="w-full bg-black text-white py-3 rounded-md font-medium"
+                className="cursor-pointer w-full bg-black text-white py-3 rounded-md font-medium"
               >
                 Book Appointment
               </button>
@@ -185,7 +184,7 @@ export default function ConsultationPopup() {
 
             <div className="flex gap-4 mt-6">
               <a href="tel:+918115585285" className="flex-1">
-                <button className="w-full flex items-center justify-center gap-2 border border-black py-3 rounded-md text-sm hover:bg-black hover:text-white transition">
+                <button className="cursor-pointer w-full flex items-center justify-center gap-2 border border-black py-3 rounded-md text-sm hover:bg-black hover:text-white transition">
                   <Phone size={16} />
                   Call now
                 </button>
@@ -197,7 +196,7 @@ export default function ConsultationPopup() {
                 rel="noopener noreferrer"
                 className="flex-1"
               >
-                <button className="w-full flex items-center justify-center gap-2 border border-green-500 text-green-500 py-3 rounded-md text-sm hover:bg-green-500 hover:text-white transition">
+                <button className="cursor-pointer w-full flex items-center justify-center gap-2 border border-green-500 text-green-500 py-3 rounded-md text-sm hover:bg-green-500 hover:text-white transition">
                   <MessageCircle size={16} />
                   WhatsApp
                 </button>

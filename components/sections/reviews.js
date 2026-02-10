@@ -4,39 +4,38 @@ import Review_JS from "./review_JS";
 export default function Reviews() {
   const reviews = [
     {
-      name: "raj",
-      para: "This is the best digital marketing and website development agency in Prayagraj. They provided me with genuine leads and effective business strategies for my business growth. Unlike others, they delivered tangible results rather than just taking payments without any improvement.",
+      name: "Sunayana Srivastava",
+      para: "Great Digital Marketing agency! Professional, creative & result oriented. Our campaigns have performed better than ever since partnering with BizzBuzz creations. Highly recommend their services.",
+    },
+    {
+      name: "Raunak Tripathi",
+      para: "Great experience with Bizzbuzz Creations. Professional, responsive, and delivered quality work on time. Highly recommended for growing your business.",
+    },
+    {
+      name: "Subhash Srivastava",
+      para: "Highly professional and competent team. Very cooperative and prompt their services. The city needs such a service providers. I would recommend this organisation highly to everyone.",
+    },
+    {
+      name: "Sarthak Mishra",
+      para: "Awesome experience with bizz buzz creations. Great for people and companies looking out for digital marketing agency.",
       img: "/banner.png",
     },
     {
-      name: "raj",
-      para: "This is the best digital marketing and website development agency in Prayagraj. They provided me with genuine leads and effective business strategies for my business growth. Unlike others, they delivered tangible results rather than just taking payments without any improvement.",
+      name: "Tariq Khan",
+      para: "Best digital marketing agency in prayagraj. They are very professional and cooperative. I am very happy with their services. I would recommend this organisation highly to everyone.",
       img: "/banner.png",
     },
     {
-      name: "raj",
-      para: "This is the best digital marketing and website development agency in Prayagraj. They provided me with genuine leads and effective business strategies for my business growth. Unlike others, they delivered tangible results rather than just taking payments without any improvement.",
-      img: "/banner.png",
-    },
-    {
-      name: "raj",
-      para: "This is the best digital marketing and website development agency in Prayagraj. They provided me with genuine leads and effective business strategies for my business growth. Unlike others, they delivered tangible results rather than just taking payments without any improvement.",
-      img: "/banner.png",
-    },
-    {
-      name: "raj",
-      para: "This is the best digital marketing and website development agency in Prayagraj. They provided me with genuine leads and effective business strategies for my business growth. Unlike others, they delivered tangible results rather than just taking payments without any improvement.",
-      img: "/banner.png",
-    },
-    {
-      name: "raj",
-      para: "This is the best digital marketing and website development agency in Prayagraj. They provided me with genuine leads and effective business strategies for my business growth. Unlike others, they delivered tangible results rather than just taking payments without any improvement.",
+      name: "Rudra Pratap Singh",
+      para: "One of the best digital marketing service providers in Prayagraj. The team is highly trustworthy and delivers outstanding SEO results. Great experience overall!",
       img: "/banner.png",
     },
   ];
   return (
     <div className="mb-20 container mx-auto">
-      <h2 className="md:text-4xl text-3xl font-bold text-center mb-5">Customer Reviews</h2>
+      <h2 className="md:text-4xl text-3xl font-bold text-center mb-5">
+        Customer Reviews
+      </h2>
       <div
         className="md:max-w-6xl max-w-2xl mx-auto relative"
         id="carousel-container"
@@ -92,7 +91,7 @@ export default function Reviews() {
                       </svg>
                     ))}
                   </div>
-                  <h3 className="text-2xl font-bold mb-3 text-gray-800 group-hover:text-white transition-colors">
+                  <h3 className="text-xl font-bold mb-3 text-gray-800 group-hover:text-white transition-colors">
                     {item.name}
                   </h3>
                   <p className="text-gray-500 group-hover:text-blue-100 transition-colors">

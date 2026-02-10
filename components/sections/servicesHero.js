@@ -49,7 +49,7 @@ export default function ServicesHero({ heading, description, img }) {
             alt="about-hero-img"
             width={400}
             height={400}
-            className="w-full  h-auto object-cover"
+            className="w-full h-auto object-cover"
           />
         </div>
 

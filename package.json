@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "@react-google-maps/api": "^2.20.8",
+    "@splidejs/react-splide": "^0.7.12",
+    "@splidejs/splide-extension-auto-scroll": "^0.5.3",
     "flowbite": "^4.0.1",
     "lucide-react": "^0.560.0",
     "mongoose": "^9.1.6",

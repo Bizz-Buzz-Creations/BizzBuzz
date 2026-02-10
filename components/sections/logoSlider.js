@@ -1,6 +1,9 @@
-"use client"
+"use client";
 import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
+import { Splide, SplideSlide } from "@splidejs/react-splide";
+import { AutoScroll } from "@splidejs/splide-extension-auto-scroll";
+import "@splidejs/react-splide/css";
 
 const items = [
   { img: "/avondale-1.png", text: "Avondale Finance" },
@@ -13,63 +16,47 @@ const items = [
 ];
 
 const LogoSlider = () => {
-  const trackRef = useRef(null);
-  const [isDragging, setIsDragging] = useState(false);
-  const startX = useRef(0);
-  const scrollLeft = useRef(0);
-  
-  useEffect(() => {
-    const track = trackRef.current;
-    let animation;
-
-    const autoScroll = () => {
-      if (!isDragging) {
-        track.scrollLeft += 0.5; 
-        if (track.scrollLeft >= track.scrollWidth / 2) {
-          track.scrollLeft = 0;
-        }
-      }
-      animation = requestAnimationFrame(autoScroll);
-    };
-
-    autoScroll();
-    return () => cancelAnimationFrame(animation);
-  }, [isDragging]);
-  
-  const handleMouseDown = (e) => {
-    setIsDragging(true);
-    startX.current = e.pageX - trackRef.current.offsetLeft;
-    scrollLeft.current = trackRef.current.scrollLeft;
-  };
-
-  const handleMouseLeave = () => setIsDragging(false);
-  const handleMouseUp = () => setIsDragging(false);
-
-  const handleMouseMove = (e) => {
-    if (!isDragging) return;
-    e.preventDefault();
-    const x = e.pageX - trackRef.current.offsetLeft;
-    const walk = (x - startX.current) * 1.5;
-    trackRef.current.scrollLeft = scrollLeft.current - walk;
-  };
-
   return (
-    <div
-      className="slider-wrapper"
-      ref={trackRef}
-      onMouseDown={handleMouseDown}
-      onMouseLeave={handleMouseLeave}
-      onMouseUp={handleMouseUp}
-      onMouseMove={handleMouseMove}
-    >
-      <div className="slider-track">
-        {[...items, ...items].map((item, index) => (
-          <div className="slide" key={index}>
-            <Image src={item.img} alt={item.text} width={100} height={100}/>
-            <span>{item.text}</span>
-          </div>
+    <div className="bg-gray-100 py-10">
+      <h2 className="text-3xl md:text-4xl font-bold mb-10 max-w-2xl text-center mx-auto mb-10">
+        Our Clients
+      </h2>
+      <Splide
+        options={{
+          type: "loop",
+          perPage: 4,
+          perMove: 1,
+          arrows: false,
+          pagination: false,
+          gap: "1rem",
+          drag: "free",
+          focus: "center",
+          pauseOnHover: true,
+          pauseOnFocus: false,
+          autoWidth: false,
+
+          autoScroll: {
+            speed: 1.2, // scroll speed (lower = slower)
+            pauseOnHover: true,
+            pauseOnFocus: false,
+            rewind: false,
+          },
+
+          breakpoints: {
+            1280: { perPage: 5 },
+            1024: { perPage: 4 },
+            768: { perPage: 3 },
+            480: { perPage: 2 },
+          },
+        }}
+        extensions={{ AutoScroll }}
+      >
+        {items.map((items, index) => (
+          <SplideSlide>
+            <Image src={items.img} alt={items.text} width={150} height={150} />
+          </SplideSlide>
         ))}
-      </div>
+      </Splide>
     </div>
   );
 };

@@ -203,6 +203,14 @@ export default function Footer() {
                 </li>
                 <li>
                   <Link
+                    href="/career"
+                    className="text-sm hover:text-gray-300 transition-colors"
+                  >
+                    Career
+                  </Link>
+                </li>
+                <li>
+                  <Link
                     href="/contact"
                     className="text-sm hover:text-gray-300 transition-colors"
                   >
@@ -323,13 +331,7 @@ export default function Footer() {
           <div className="flex flex-col md:flex-row md:items-center md:justify-between">
             <div className="flex space-x-6 mb-4 md:mb-0">
               <Link
-                href="#"
-                className="text-xs text-gray-500 hover:text-gray-300"
-              >
-                Sitemap
-              </Link>
-              <Link
-                href="#"
+                href="/privacy-policy"
                 className="text-xs text-gray-500 hover:text-gray-300"
               >
                 Privacy Policy

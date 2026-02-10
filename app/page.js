@@ -19,8 +19,6 @@ export default function Home() {
       {/* Home Hero Section */}
       <HomeHero />
 
-      <LogoSlider/>
-
       {/* About section */}
       <HomeAbout />
 
@@ -39,10 +37,10 @@ export default function Home() {
       {/* Why Choose Us Section */}
       <RecentWork />
 
-      {/* our client carousel */}
       {/* <ClientLogo /> */}
+      <LogoSlider />
 
-      <div className="py-10">
+      <div className="pt-10">
         {/* Reviews section */}
         <Reviews />
       </div>

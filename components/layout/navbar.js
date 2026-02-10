@@ -118,6 +118,12 @@ export default function Navbar() {
             Blog
           </Link>
           <Link
+            href="/career"
+            className="text-black hover:text-grey transition"
+          >
+            Career
+          </Link>
+          <Link
             href="/contact"
             className="text-black hover:text-grey transition"
           >
@@ -288,6 +294,13 @@ export default function Navbar() {
               className="hover:text-grey transition"
             >
               Blog
+            </Link>
+            <Link
+              onClick={() => setOpen(false)}
+              href="/career"
+              className="hover:text-grey transition"
+            >
+              Career
             </Link>
             <Link
               onClick={() => setOpen(false)}

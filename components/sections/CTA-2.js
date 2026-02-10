@@ -5,7 +5,7 @@ export default function CTA2() {
   return (
     <div className="px-5">
       <div
-        className="rounded-3xl mb-20 md:max-w-3xl lg:max-w-5xl xl:max-w-6xl mx-auto container"
+        className="rounded-3xl mb-20 md:max-w-3xl lg:max-w-5xl xl:max-w-6xl mx-auto container shadow-lg shadow-gray-600"
       >
         <div
   className="py-5 sm:px-10 px-5 z-10 text-white mb-10 relative rounded-3xl"
