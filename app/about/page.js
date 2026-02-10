@@ -1,5 +1,5 @@
 import AboutHero from "@/components/sections/aboutHero";
-import ClientLogo from "@/components/sections/logoSlider";
+import LogoSlider from "@/components/sections/logoSlider";
 import Counter from "@/components/sections/counter";
 import CTA from "@/components/sections/CTA";
 import CTA2 from "@/components/sections/CTA-2";
@@ -215,9 +215,11 @@ export default function About() {
         </div>
       </div>
 
-      <CTA2 />
       <WhyChooseUs />
-      {/* <ClientLogo /> */}
+      <CTA2 />
+      <div className="mb-5">
+        <LogoSlider />
+      </div>
       <Reviews />
       <Counter />
       <CTA />
