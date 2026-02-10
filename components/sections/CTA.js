@@ -82,7 +82,7 @@ export default function CTA() {
                 name="email"
                 type="email"
                 id="email"
-                className="w-full px-4 py-3 border border-gray-300 rounded-full focus:outline-none focus:border-black text-lg"
+                className="w-full px-4 py-3 text-black border border-gray-300 rounded-full focus:outline-none focus:border-black text-lg"
                 placeholder="your@email.com"
                 required
               />

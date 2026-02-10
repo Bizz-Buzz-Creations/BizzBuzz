@@ -1,7 +1,7 @@
-import JobsFetch from '@/components/sections/jobsFetch'
+import JobsFetch from "@/components/sections/jobsFetch";
 
 export default function Career() {
-  return (
-    <JobsFetch/>
-  )
+  return <JobsFetch />;
 }
+
+export const dynamic = "force-dynamic";

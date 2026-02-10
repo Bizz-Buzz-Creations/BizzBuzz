@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 export default async function JobPosting({ searchParams }) {
   const { token } = await searchParams;
 
-  if (token !== process.env.ADMIN_PAGE_TOKEN) {
+  if (!token || token !== process.env.ADMIN_PAGE_TOKEN) {
     notFound();
   }
 
