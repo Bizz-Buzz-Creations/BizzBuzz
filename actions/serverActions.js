@@ -3,6 +3,15 @@ import connectDB from "@/db/connect";
 import nodemailer from "nodemailer";
 import Job from "@/models/jobs";
 
+export async function testEnv() {
+  return {
+    mongo: !!process.env.SMTP_SERVER_USERNAME,
+    smtpUser: !!process.env.SMTP_SERVER_PASSWORD,
+    smtpPass: !!process.env.MONGO_URI,
+    token: !!process.env.ADMIN_PAGE_TOKEN,
+  };
+}
+
 const SMTP_SERVER_HOST = process.env.SMTP_SERVER_HOST;
 const SMTP_SERVER_USERNAME = process.env.SMTP_SERVER_USERNAME;
 const SMTP_SERVER_PASSWORD = process.env.SMTP_SERVER_PASSWORD;
