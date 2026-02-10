@@ -4,19 +4,22 @@ import CTA2 from "@/components/sections/CTA-2";
 import FAQ from "@/components/sections/FAQ";
 import HomeAbout from "@/components/sections/homeAbout";
 import HomeHero from "@/components/sections/homeHero";
-import ClientLogo from "@/components/sections/clientLogo";
+import ClientLogo from "@/components/sections/logoSlider";
 import OurServices from "@/components/sections/ourServices";
 import Reviews from "@/components/sections/reviews";
 import WhatMAkesUs from "@/components/sections/whatMakesUs";
 import RecentWork from "@/components/sections/recentWork";
 import WhyChooseUs from "@/components/sections/WhyChooseUs";
 import ConsultationPopup from "@/components/sections/popupForm";
+import LogoSlider from "@/components/sections/logoSlider";
 
 export default function Home() {
   return (
     <>
       {/* Home Hero Section */}
       <HomeHero />
+
+      <LogoSlider/>
 
       {/* About section */}
       <HomeAbout />

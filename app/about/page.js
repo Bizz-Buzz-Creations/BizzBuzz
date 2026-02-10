@@ -1,5 +1,5 @@
 import AboutHero from "@/components/sections/aboutHero";
-import ClientLogo from "@/components/sections/clientLogo";
+import ClientLogo from "@/components/sections/logoSlider";
 import Counter from "@/components/sections/counter";
 import CTA from "@/components/sections/CTA";
 import CTA2 from "@/components/sections/CTA-2";
