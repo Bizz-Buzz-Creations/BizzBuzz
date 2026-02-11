@@ -128,7 +128,7 @@ export async function getAllJobs() {
     console.error("Get jobs failed:", error);
     return {
       success: false,
-      message: "Failed to fetch jobs.",
+      message: error.message || "Failed to fetch jobs.",
     };
   }
 }

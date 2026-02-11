@@ -17,6 +17,8 @@ export default function JobsFetch() {
       const response = await getAllJobs();
       if (response?.success) {
         setJobsData(response?.data);
+      }else {
+        console.error("Failed to fetch jobs:", response?.message);
       }
     };
     fetchJobs();
