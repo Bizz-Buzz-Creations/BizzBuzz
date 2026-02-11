@@ -52,7 +52,7 @@ export default function CTA() {
     }
   };
   return (
-    <div className="px-5">
+    <div className="px-5 scroll-mt-34" id="CTA">
       <div
         className="rounded-3xl shadow-lg shadow-black md:max-w-3xl lg:max-w-5xl xl:max-w-6xl mx-auto container"
         style={{

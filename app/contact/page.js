@@ -16,15 +16,12 @@ export default function Contact() {
       >
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16 px-4">
-            <p className="text-base font-medium text-gray-500 mb-3">
-              Get In Touch
-            </p>
             <h2 className="text-4xl md:text-5xl font-bold text-black mb-6">
               Contact Us
             </h2>
             <p className="text-lg text-gray-600 max-w-4xl mx-auto leading-relaxed">
-              Have questions or ready to start your project? We'd love to hear
-              from you. Reach out and let's create something amazing together.
+              If you have any questions, concerns, or feedback please don’t
+              hesitate to contact us. We are happy to help you right away!
             </p>
           </div>
 
@@ -167,5 +164,4 @@ export default function Contact() {
   );
 }
 
-
-<div></div>
+<div></div>;

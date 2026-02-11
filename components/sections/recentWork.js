@@ -42,10 +42,11 @@ export default function RecentWork() {
                           <div className="flex py-4 text-sm text-black">
                             <div className="flex-1 inline-flex items-center ">
                               <p>
-                                If you're looking for random paragraphs, you've
-                                come to the right place. When a random word or a
-                                random sentence isn't quite enough, the next
-                                logical step is to find a random paragraph. We
+                                Our website redesign initiatives are based on a
+                                clear plan, good user experience, and modern
+                                design. The results reveal that people are more
+                                interested, things happen faster, and more
+                                people buy on important pages.
                               </p>
                             </div>
                           </div>
@@ -74,10 +75,11 @@ export default function RecentWork() {
                           <div className="flex py-4 text-sm text-black">
                             <div className="flex-1 inline-flex items-center">
                               <p>
-                                If you're looking for random paragraphs, you've
-                                come to the right place. When a random word or a
-                                random sentence isn't quite enough, the next
-                                logical step is to find a random paragraph. We
+                                Our SEO campaigns are built on strong research,
+                                technical optimization, and quality content. The
+                                graphs of these results illustrate that search
+                                visibility, traffic growth, and keyword rankings
+                                have all steadily improved over time.
                               </p>
                             </div>
                           </div>
@@ -106,10 +108,11 @@ export default function RecentWork() {
                           <div className="flex py-4 text-sm text-black">
                             <div className="flex-1 inline-flex items-center">
                               <p>
-                                If you're looking for random paragraphs, you've
-                                come to the right place. When a random word or a
-                                random sentence isn't quite enough, the next
-                                logical step is to find a random paragraph. We
+                                We design social media visuals that align with
+                                your brand voice and marketing goals. Our
+                                creatives, from posts to advertising, are made
+                                to get people to interact with your brand, trust
+                                you, and make your online presence stronger.
                               </p>
                             </div>
                           </div>
@@ -138,10 +141,11 @@ export default function RecentWork() {
                           <div className="flex py-4 text-sm text-black">
                             <div className="flex-1 inline-flex items-center">
                               <p>
-                                If you're looking for random paragraphs, you've
-                                come to the right place. When a random word or a
-                                random sentence isn't quite enough, the next
-                                logical step is to find a random paragraph. We
+                                Smart targeting, persuasive copy, and optimized
+                                landing pages are the main things our lead
+                                generation ads focus on. We assist companies get
+                                high-quality leads that are more likely to turn
+                                into genuine customers.
                               </p>
                             </div>
                           </div>

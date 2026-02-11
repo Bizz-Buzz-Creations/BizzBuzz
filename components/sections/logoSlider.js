@@ -43,6 +43,7 @@ const LogoSlider = () => {
           },
 
           breakpoints: {
+            1580: { perPage: 6 },
             1280: { perPage: 5 },
             1024: { perPage: 4 },
             768: { perPage: 3 },
@@ -52,7 +53,7 @@ const LogoSlider = () => {
         extensions={{ AutoScroll }}
       >
         {items.map((items, index) => (
-          <SplideSlide>
+          <SplideSlide key={index}>
             <Image src={items.img} alt={items.text} width={150} height={150} />
           </SplideSlide>
         ))}

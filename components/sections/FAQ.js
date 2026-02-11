@@ -22,7 +22,7 @@ export default function FAQ() {
             aria-expanded="true"
             aria-controls="accordion-flush-body-5"
           >
-            <span>Deep Business Understanding</span>
+            <span>Boost Online Visibility</span>
             <svg
               data-accordion-icon
               className="w-5 h-5 rotate-180 shrink-0"
@@ -50,20 +50,10 @@ export default function FAQ() {
         >
           <div className="py-5 border-b border-default text-body">
             <p className="mb-2">
-              Flowbite is an open-source library of interactive components built
-              on top of Tailwind CSS including buttons, dropdowns, modals,
-              navbars, and more.
-            </p>
-            <p>
-              Check out this guide to learn how to{" "}
-              <a
-                href="/docs/getting-started/introduction/"
-                className="text-fg-brand hover:underline"
-              >
-                get started
-              </a>{" "}
-              and start developing websites even faster with components on top
-              of Tailwind CSS.
+              IT Consulting & IT Services at Bizz Buzz Creations offer expert
+              guidance and ongoing support to optimize your technology, improve
+              security, reduce costs, and streamline operations—boosting
+              productivity and keeping your business competitive.
             </p>
           </div>
         </div>
@@ -75,7 +65,7 @@ export default function FAQ() {
             aria-expanded="false"
             aria-controls="accordion-flush-body-6"
           >
-            <span>Customized Strategy Building</span>
+            <span>Enhance Brand Awareness</span>
             <svg
               data-accordion-icon
               className="w-5 h-5 rotate-180 shrink-0"
@@ -103,20 +93,9 @@ export default function FAQ() {
         >
           <div className="py-5 border-b border-default text-body">
             <p className="mb-2">
-              Flowbite is first conceptualized and designed using the Figma
-              software so everything you see in the library has a design
-              equivalent in our Figma file.
-            </p>
-            <p>
-              Check out the{" "}
-              <a
-                href="https://flowbite.com/figma/"
-                className="text-fg-brand hover:underline"
-              >
-                Figma design system
-              </a>{" "}
-              based on the utility classes from Tailwind CSS and components from
-              Flowbite.
+              At Bizz Buzz Creations, our IT services boost security with
+              firewalls, encryption, system updates, and continuous monitoring,
+              protecting your business from threats and ensuring data safety.
             </p>
           </div>
         </div>
@@ -128,7 +107,7 @@ export default function FAQ() {
             aria-expanded="false"
             aria-controls="accordion-flush-body-7"
           >
-            <span>Execution With Precision </span>
+            <span>Increase Lead Generation</span>
             <svg
               data-accordion-icon
               className="w-5 h-5 rotate-180 shrink-0"
@@ -156,37 +135,11 @@ export default function FAQ() {
         >
           <div className="py-5 text-body border-b border-default">
             <p className="mb-2">
-              The main difference is that the core components from Flowbite are
-              open source under the MIT license, whereas Tailwind UI is a paid
-              product. Another difference is that Flowbite relies on smaller and
-              standalone components, whereas Tailwind UI offers sections of
-              pages.
+              Increase lead generation by leveraging data-driven strategies,
+              targeted campaigns, and personalized content to attract qualified
+              prospects, nurture relationships, and convert them into loyal
+              clients for sustained business growth.
             </p>
-            <p className="mb-2">
-              However, we actually recommend using both Flowbite, Flowbite Pro,
-              and even Tailwind UI as there is no technical reason stopping you
-              from using the best of two worlds.
-            </p>
-            <p className="mb-2">Learn more about these technologies:</p>
-            <ul className="ps-5 list-disc">
-              <li>
-                <a
-                  href="https://flowbite.com/pro/"
-                  className="text-fg-brand hover:underline"
-                >
-                  Flowbite Pro
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://tailwindui.com/"
-                  rel="nofollow"
-                  className="text-fg-brand hover:underline"
-                >
-                  Tailwind UI
-                </a>
-              </li>
-            </ul>
           </div>
         </div>
         <h2 id="accordion-flush-heading-8">
@@ -197,7 +150,7 @@ export default function FAQ() {
             aria-expanded="false"
             aria-controls="accordion-flush-body-8"
           >
-            <span>Execution With Precision </span>
+            <span>Drive Targeted Traffic</span>
             <svg
               data-accordion-icon
               className="w-5 h-5 rotate-180 shrink-0"
@@ -225,37 +178,55 @@ export default function FAQ() {
         >
           <div className="py-5 text-body border-b border-default">
             <p className="mb-2">
-              The main difference is that the core components from Flowbite are
-              open source under the MIT license, whereas Tailwind UI is a paid
-              product. Another difference is that Flowbite relies on smaller and
-              standalone components, whereas Tailwind UI offers sections of
-              pages.
+              Bizz Buzz Creations offers IT services including IT Management,
+              Web Development, Cloud Computing, Tech Support, alongside
+              Corporate Event Management, Financial Advisory, Business
+              Consulting, Networking, Digital Marketing, and BPO Outsourcing
+              solutions.
             </p>
+          </div>
+        </div>
+        <h2 id="accordion-flush-heading-9">
+          <button
+            type="button"
+            className="flex items-center justify-between w-full py-5 font-medium rtl:text-right text-body border-b border-default gap-3"
+            data-accordion-target="#accordion-flush-body-9"
+            aria-expanded="false"
+            aria-controls="accordion-flush-body-9"
+          >
+            <span>Performance Track and Optimize</span>
+            <svg
+              data-accordion-icon
+              className="w-5 h-5 rotate-180 shrink-0"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              fill="none"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="m5 15 7-7 7 7"
+              />
+            </svg>
+          </button>
+        </h2>
+        <div
+          id="accordion-flush-body-9"
+          className="hidden"
+          aria-labelledby="accordion-flush-heading-9"
+        >
+          <div className="py-5 text-body border-b border-default">
             <p className="mb-2">
-              However, we actually recommend using both Flowbite, Flowbite Pro,
-              and even Tailwind UI as there is no technical reason stopping you
-              from using the best of two worlds.
+              Track performance with real-time analytics, assess campaign
+              effectiveness, and continuously optimize strategies to enhance
+              ROI, improve outcomes, and ensure sustained growth by adapting to
+              market trends and customer behavior.
             </p>
-            <p className="mb-2">Learn more about these technologies:</p>
-            <ul className="ps-5 list-disc">
-              <li>
-                <a
-                  href="https://flowbite.com/pro/"
-                  className="text-fg-brand hover:underline"
-                >
-                  Flowbite Pro
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://tailwindui.com/"
-                  rel="nofollow"
-                  className="text-fg-brand hover:underline"
-                >
-                  Tailwind UI
-                </a>
-              </li>
-            </ul>
           </div>
         </div>
       </div>

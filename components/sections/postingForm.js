@@ -221,7 +221,7 @@ export default function PostingForm() {
         All posted jobs :
       </h3>
       <div className="max-w-3xl px-5 mx-auto my-20">
-        {allJobs ? (
+        {allJobs && allJobs.length > 0 ? (
           allJobs.map((job) => (
             <div
               key={job._id}

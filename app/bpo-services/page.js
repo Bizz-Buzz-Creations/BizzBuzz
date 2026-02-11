@@ -51,34 +51,34 @@ export default function BPO() {
         <h2 className="text-3xl font-bold mb-10 text-center">What We Offer</h2>
         <div className="flex flex-wrap justify-center items-center mb-20 gap-10">
           <ServiceCard
-            heading="On Page SEO"
-            description="Optimizing every page of your website to rank higher and attract the right audience."
-            imageUrl="/wordpress.png"
+            heading="Inbound Customer Support"
+            description="Handling customer queries, complaints, and service requests with professionalism and care."
+            imageUrl="/phone-svgrepo-com.svg"
           />
           <ServiceCard
-            heading="Off Page SEO"
-            description="Building authority with quality backlinks, social media presence, and brand mentions."
-            imageUrl="/online-shop.png"
+            heading="Outbound Sales & Telemarketing"
+            description="Reaching new prospects, promoting your services, and converting leads into customers."
+            imageUrl="/phone-intercom-svgrepo-com.svg"
           />
           <ServiceCard
-            heading="Technical SEO"
-            description="Improving site speed, mobile-friendliness, and crawlability for better search engine rankings."
-            imageUrl="/web-design.svg"
+            heading="Live Chat & Email Support"
+            description="Providing fast, friendly, and accurate support through chat and email channels."
+            imageUrl="/chat-round-svgrepo-com.svg"
           />
           <ServiceCard
-            heading="Content & Link Building"
-            description="High-quality content marketing and authority link strategies"
-            imageUrl="/web-design.svg"
+            heading="Lead Qualification & Appointment Setting"
+            description="Identifying high-quality prospects and scheduling meetings for your sales team."
+            imageUrl="/graph-up-svgrepo-com.svg"
           />
           <ServiceCard
-            heading="Ecommerce SEO & Audits"
-            description="Special SEO for online stores and complete site health checks."
-            imageUrl="/web-design.svg"
+            heading="Order Processing & Backend Support"
+            description="Managing orders, data entry, and back-office operations smoothly and securely."
+            imageUrl="/cart-svgrepo-com.svg"
           />
           <ServiceCard
-            heading="Local SEO & Penalty Checks"
-            description="Target nearby customers and recover from Google penalties."
-            imageUrl="/web-design.svg"
+            heading="Multilingual & 24/7 Support Services"
+            description="Serving global customers with round-the-clock, multi-language support coverage."
+            imageUrl="/global-globe-planet-space-world-svgrepo-com.svg"
           />
         </div>
       </div>

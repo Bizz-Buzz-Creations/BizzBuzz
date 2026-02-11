@@ -53,7 +53,7 @@ export async function sendMail({ name, email, subject, text, contact }) {
     console.error("Email send failed:", error);
     return {
       success: false,
-      message: error.message || "Failed to send message.",
+      message: "Failed to send message.",
     };
   }
 }
@@ -128,7 +128,7 @@ export async function getAllJobs() {
     console.error("Get jobs failed:", error);
     return {
       success: false,
-      message: error.message || "Failed to fetch jobs.",
+      message: "Failed to fetch jobs.",
     };
   }
 }

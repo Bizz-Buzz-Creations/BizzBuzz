@@ -51,32 +51,32 @@ export default function SearchEngineOptimization() {
           <ServiceCard
             heading="On Page SEO"
             description="Optimizing every page of your website to rank higher and attract the right audience."
-            imageUrl="/wordpress.png"
+            imageUrl="/doc.svg"
           />
           <ServiceCard
             heading="Off Page SEO"
             description="Building authority with quality backlinks, social media presence, and brand mentions."
-            imageUrl="/online-shop.png"
+            imageUrl="/link-round-svgrepo-com.svg"
           />
           <ServiceCard
             heading="Technical SEO"
             description="Improving site speed, mobile-friendliness, and crawlability for better search engine rankings."
-            imageUrl="/web-design.svg"
+            imageUrl="/setting-2-svgrepo-com.svg"
           />
           <ServiceCard
             heading="Content & Link Building"
             description="High-quality content marketing and authority link strategies"
-            imageUrl="/web-design.svg"
+            imageUrl="/connect-svgrepo-com.svg"
           />
           <ServiceCard
             heading="Ecommerce SEO & Audits"
             description="Special SEO for online stores and complete site health checks."
-            imageUrl="/web-design.svg"
+            imageUrl="/cart-large-minimalistic-svgrepo-com.svg"
           />
           <ServiceCard
             heading="Local SEO & Penalty Checks"
             description="Target nearby customers and recover from Google penalties."
-            imageUrl="/web-design.svg"
+            imageUrl="/map-point-wave-svgrepo-com.svg"
           />
         </div>
       </div>

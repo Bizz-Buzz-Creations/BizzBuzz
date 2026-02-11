@@ -46,9 +46,9 @@ export default function OurServices() {
                   SEO Optimization
                 </h3>
                 <p className="mt-1 text-sm text-gray-600">
-                  Experience the future of technology with our revolutionary
-                  quantum computing solution.Experience the future of technology
-                  with our revolutionary quantum computing solution.
+                  Top SEO services in Prayagraj to boost your Google ranking,
+                  increase traffic, attract more customers, and enhance your
+                  online presence with simple, effective strategies.
                 </p>
                 {/* Button */}
                 <div className="mt-6">
@@ -81,9 +81,9 @@ export default function OurServices() {
                   Website Development
                 </h3>
                 <p className="mt-1 text-sm text-gray-600">
-                  Experience the future of technology with our revolutionary
-                  quantum computing solution.Experience the future of technology
-                  with our revolutionary quantum computing solution.
+                  We write smart and easy code that helps your business grow.
+                  From websites to custom solutions, our work makes things
+                  smooth, trusted, and result-driven.
                 </p>
                 {/* Button */}
                 <div className="mt-6">
@@ -113,9 +113,10 @@ export default function OurServices() {
                   Social Media Marketing
                 </h3>
                 <p className="mt-1 text-sm text-gray-600">
-                  Experience the future of technology with our revolutionary
-                  quantum computing solution.Experience the future of technology
-                  with our revolutionary quantum computing solution.
+                  Services providing Social Media Marketing in prayagraj helps
+                  to augment the online presence of businesses, provide
+                  engagement to audiences for a better flow, and drive traffic
+                  with efficiency.
                 </p>
                 {/* Button */}
                 <div className="mt-6">
@@ -145,13 +146,14 @@ export default function OurServices() {
                   Paid Marketing & Lead Generation
                 </h3>
                 <p className="mt-1 text-sm text-gray-600">
-                  Experience the future of technology with our revolutionary
-                  quantum computing solution.Experience the future of technology
-                  with our revolutionary quantum computing solution.
+                  Our data-driven ad tactics and lead systems that convert well
+                  will help your organization flourish. Use campaigns that are
+                  meant to grow your business faster to turn clicks into
+                  consumers.
                 </p>
                 {/* Button */}
                 <div className="mt-6">
-                  <Link href="/web-development" className="inline-block">
+                  <Link href="/paid-marketing" className="inline-block">
                     <button className="rounded-lg py-2 flex gap-2 items-center text-sm font-medium text-[#0B60B0] transition hover:text-[#0B60B0]/80">
                       Know More <MoveRight size={16} />
                     </button>
@@ -209,13 +211,13 @@ export default function OurServices() {
                   Business Consultancy Services
                 </h3>
                 <p className="mt-1 text-sm text-gray-600">
-                  Experience the future of technology with our revolutionary
-                  quantum computing solution.Experience the future of technology
-                  with our revolutionary quantum computing solution.
+                  Business consultancy offers expert advice to improve
+                  operations, boost efficiency, solve problems, and drive
+                  growth.
                 </p>
                 {/* Button */}
                 <div className="mt-6">
-                  <Link href="/bpo-services" className="inline-block">
+                  <Link href="/business-consultancy" className="inline-block">
                     <button className="rounded-lg py-2 flex gap-2 items-center text-sm font-medium text-[#0B60B0] transition hover:text-[#0B60B0]/80">
                       Know More <MoveRight size={16} />
                     </button>

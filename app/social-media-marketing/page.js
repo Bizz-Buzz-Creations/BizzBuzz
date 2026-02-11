@@ -51,27 +51,27 @@ export default function SocialMediaMarketing() {
           <ServiceCard
             heading="Social Media Strategy"
             description="Custom plans for Facebook, Instagram, LinkedIn, and more."
-            imageUrl="/wordpress.png"
+            imageUrl="/trend-up-svgrepo-com.svg"
           />
           <ServiceCard
             heading="Content Creation"
             description="Eye-catching posts, reels, videos, and graphics that engage."
-            imageUrl="/online-shop.png"
+            imageUrl="/image-1-svgrepo-com.svg"
           />
           <ServiceCard
             heading="Community Management"
-            description="IHandling comments, messages, and building brand trust."
-            imageUrl="/web-design.svg"
+            description="Handling comments, messages, and building brand trust."
+            imageUrl="/users-svgrepo-com.svg"
           />
           <ServiceCard
             heading="Paid Advertising"
             description="Targeted ads to boost leads and sales."
-            imageUrl="/web-design.svg"
+            imageUrl="/target-arrow-svgrepo-com.svg"
           />
           <ServiceCard
             heading="Analytics & Reporting"
-            description="STracking growth, engagement, and ROI."
-            imageUrl="/web-design.svg"
+            description="Tracking growth, engagement, and ROI."
+            imageUrl="/linechart-1-svgrepo-com.svg"
           />
         </div>
       </div>

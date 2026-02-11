@@ -55,20 +55,12 @@ export default function WhatMAkesUs() {
         >
           <div className="py-5 border-b border-default text-body">
             <p className="mb-2">
-              Flowbite is an open-source library of interactive components built
-              on top of Tailwind CSS including buttons, dropdowns, modals,
-              navbars, and more.
-            </p>
-            <p>
-              Check out this guide to learn how to{" "}
-              <a
-                href="/docs/getting-started/introduction/"
-                className="text-fg-brand hover:underline"
-              >
-                get started
-              </a>{" "}
-              and start developing websites even faster with components on top
-              of Tailwind CSS.
+              We think that the first step to successful marketing is to really
+              understand your business. Before we start any campaign, we spend
+              time getting to know your business, your consumers, your rivals,
+              and your long-term goals. This lets us come up with plans that are
+              not only innovative, but also useful, relevant, and designed to
+              have a meaningful effect on business.
             </p>
           </div>
         </div>
@@ -108,20 +100,11 @@ export default function WhatMAkesUs() {
         >
           <div className="py-5 border-b border-default text-body">
             <p className="mb-2">
-              Flowbite is first conceptualized and designed using the Figma
-              software so everything you see in the library has a design
-              equivalent in our Figma file.
-            </p>
-            <p>
-              Check out the{" "}
-              <a
-                href="https://flowbite.com/figma/"
-                className="text-fg-brand hover:underline"
-              >
-                Figma design system
-              </a>{" "}
-              based on the utility classes from Tailwind CSS and components from
-              Flowbite.
+              We don't think that marketing should be the same for everyone. We
+              make plans that are just right for your business because every
+              firm has its own goals, problems, and customers. We plan
+              everything, from the channels we use to the messages we send,
+              around what will perform best for your brand and market.
             </p>
           </div>
         </div>
@@ -133,7 +116,7 @@ export default function WhatMAkesUs() {
             aria-expanded="false"
             aria-controls="accordion-flush-body-3"
           >
-            <span>Execution With Precision </span>
+            <span>Data-Driven Campaign Optimization</span>
             <svg
               data-accordion-icon
               className="w-5 h-5 rotate-180 shrink-0"
@@ -161,37 +144,13 @@ export default function WhatMAkesUs() {
         >
           <div className="py-5 text-body border-b border-default">
             <p className="mb-2">
-              The main difference is that the core components from Flowbite are
-              open source under the MIT license, whereas Tailwind UI is a paid
-              product. Another difference is that Flowbite relies on smaller and
-              standalone components, whereas Tailwind UI offers sections of
-              pages.
+              It's not about guessing when it comes to successful digital
+              marketing; it's about measuring, learning, and getting better. We
+              keep track of every click, impression, and conversion to see what
+              truly works. We use real data and insights to constantly enhance
+              your campaigns so they perform better, waste less money, and give
+              you a better return on your investment.
             </p>
-            <p className="mb-2">
-              However, we actually recommend using both Flowbite, Flowbite Pro,
-              and even Tailwind UI as there is no technical reason stopping you
-              from using the best of two worlds.
-            </p>
-            <p className="mb-2">Learn more about these technologies:</p>
-            <ul className="ps-5 list-disc">
-              <li>
-                <a
-                  href="https://flowbite.com/pro/"
-                  className="text-fg-brand hover:underline"
-                >
-                  Flowbite Pro
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://tailwindui.com/"
-                  rel="nofollow"
-                  className="text-fg-brand hover:underline"
-                >
-                  Tailwind UI
-                </a>
-              </li>
-            </ul>
           </div>
         </div>
         <h2 id="accordion-flush-heading-4">
@@ -202,7 +161,7 @@ export default function WhatMAkesUs() {
             aria-expanded="false"
             aria-controls="accordion-flush-body-4"
           >
-            <span>Execution With Precision </span>
+            <span>Content marketing that focuses on the audience</span>
             <svg
               data-accordion-icon
               className="w-5 h-5 rotate-180 shrink-0"
@@ -230,37 +189,12 @@ export default function WhatMAkesUs() {
         >
           <div className="py-5 text-body border-b border-default">
             <p className="mb-2">
-              The main difference is that the core components from Flowbite are
-              open source under the MIT license, whereas Tailwind UI is a paid
-              product. Another difference is that Flowbite relies on smaller and
-              standalone components, whereas Tailwind UI offers sections of
-              pages.
+              Your audience, not simply your brand, is what makes great content.
+              We create content that speaks directly to your customers’ needs,
+              questions, and motivations. Our content, which includes blogs,
+              landing pages, advertising, and social media postings, is meant to
+              teach, engage, and lead your audience to take action.
             </p>
-            <p className="mb-2">
-              However, we actually recommend using both Flowbite, Flowbite Pro,
-              and even Tailwind UI as there is no technical reason stopping you
-              from using the best of two worlds.
-            </p>
-            <p className="mb-2">Learn more about these technologies:</p>
-            <ul className="ps-5 list-disc">
-              <li>
-                <a
-                  href="https://flowbite.com/pro/"
-                  className="text-fg-brand hover:underline"
-                >
-                  Flowbite Pro
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://tailwindui.com/"
-                  rel="nofollow"
-                  className="text-fg-brand hover:underline"
-                >
-                  Tailwind UI
-                </a>
-              </li>
-            </ul>
           </div>
         </div>
       </div>
