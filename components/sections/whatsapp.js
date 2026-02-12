@@ -12,7 +12,6 @@ export default function Whatsapp() {
 
   return (
     <FloatingWhatsApp
-      style={{ objectFit: "contain" }}
       phoneNumber={props.phoneNumber}
       accountName={props.accountName}
       avatar={props.avatar}
