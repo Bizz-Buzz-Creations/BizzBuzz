@@ -9,11 +9,11 @@ export default function Counter() {
       }}
     >
       <div className="flex flex-col justify-center items-center">
-        <p className="text-4xl font-bold mb-2">500+</p>
+        <p className="text-4xl font-bold mb-2">50+</p>
         <p className="text-xl font-bold">Projects Delivered</p>
       </div>
       <div className="flex flex-col justify-center items-center">
-        <p className="text-4xl font-bold mb-2">30000+</p>
+        <p className="text-4xl font-bold mb-2">10000+</p>
         <p className="text-xl font-bold">Leads Generated</p>
       </div>
       <div className="flex flex-col justify-center items-center">
@@ -24,7 +24,7 @@ export default function Counter() {
         <p className="text-xl font-bold">Google Rating</p>
       </div>
       <div className="flex flex-col justify-center items-center">
-        <p className="text-4xl font-bold mb-2">7+</p>
+        <p className="text-4xl font-bold mb-2">3+</p>
         <p className="text-xl font-bold">Years Experience</p>
       </div>
     </div>

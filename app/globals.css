@@ -240,3 +240,8 @@ body {
 .wobble {
   animation: shake 0.5s;
 }
+
+/* Whatsapp profile logo */
+.styles-module_chatHeader__gaeOA .styles-module_avatar__afcc4 img {
+  object-fit: cover !important;
+}

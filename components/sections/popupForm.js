@@ -5,6 +5,7 @@ import { X, Phone, MessageCircle } from "lucide-react";
 import { sendMail } from "@/actions/serverActions";
 import { toast, Bounce } from "react-toastify";
 import { usePathname } from "next/navigation";
+import Image from "next/image";
 
 export default function ConsultationPopup() {
   const [open, setOpen] = useState(false);
@@ -121,11 +122,11 @@ export default function ConsultationPopup() {
 
             <div className="bg-[#eef8fc] rounded-lg p-4 grid grid-cols-3 gap-4 text-sm font-semibold mb-6">
               <div>
-                <p className="text-xl font-bold">500+</p>
+                <p className="text-xl font-bold">50+</p>
                 <p>Projects Delivered</p>
               </div>
               <div>
-                <p className="text-xl font-bold">30000+</p>
+                <p className="text-xl font-bold">10000+</p>
                 <p>Leads Generated</p>
               </div>
               <div>
@@ -134,10 +135,43 @@ export default function ConsultationPopup() {
               </div>
             </div>
 
-            <ul className="space-y-2 text-sm text-gray-700 font-bold">
-              <li>✔ 500+ Projects Delivered</li>
-              <li>✔ 30,000+ Leads Generated</li>
-              <li>✔ 4.9 Google Ratings</li>
+            <ul className="flex items-center  space-y-2 text-sm text-gray-700 font-bold">
+              <li>
+                <Image
+                  src="/CDL.png"
+                  width={80}
+                  height={80}
+                  alt="Google Partner"
+                  className="inline mr-2"
+                />
+              </li>
+              <li>
+                <Image
+                  src="/clutch.png"
+                  width={80}
+                  height={80}
+                  alt="clutch Partner"
+                  className="inline mr-2"
+                />
+              </li>
+              <li>
+                <Image
+                  src="/ISO.png"
+                  width={80}
+                  height={80}
+                  alt="ISO Partner"
+                  className="inline mr-2"
+                />
+              </li>
+              <li>
+                <Image
+                  src="/GA.png"
+                  width={80}
+                  height={80}
+                  alt="Google Analytics Partner"
+                  className="inline mr-2"
+                />
+              </li>
             </ul>
           </div>
 

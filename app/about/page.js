@@ -29,7 +29,7 @@ export default function About() {
           <Image src="/banner.png" alt="team" width={500} height={500} />
           <div className="text-gray-900">
             <p className="leading-relaxed lg:text-left text-center max-w-xl mx-auto mb-4">
-              A place where innovation meets excellence! For almost a year,
+              A place where innovation meets excellence! For almost 3 years,
               we’ve been helping businesses with a full range of services
               designed to drive success. With a team of skilled experts, we
               create solutions that set new standards and encourage steady
