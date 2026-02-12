@@ -112,7 +112,7 @@ export default function Navbar() {
             </div>
           </div>
           <Link
-            href="https://bizzbuzzcreations.com/blog/"
+            href="https://blog.bizzbuzzcreations.com"
             className="text-black hover:text-grey transition"
           >
             Blog
@@ -284,7 +284,7 @@ export default function Navbar() {
             </div>
             <Link
               onClick={() => setOpen(false)}
-              href="/blog"
+              href="https://blog.bizzbuzzcreations.com"
               className="hover:text-grey transition"
             >
               Blog

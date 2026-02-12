@@ -1,6 +1,12 @@
 import ContactForm from "@/components/sections/contactForm";
 import React from "react";
 
+export const metadata = {
+  title: "Contact Us",
+  description:
+    "Got questions? We’re here to help! Reach out today and let’s connect. We’re ready to assist you with whatever you need!",
+};
+
 export default function Contact() {
   return (
     <>

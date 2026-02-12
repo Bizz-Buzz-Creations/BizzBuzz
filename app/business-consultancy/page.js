@@ -8,6 +8,12 @@ import Counter from "@/components/sections/counter";
 import CTA from "@/components/sections/CTA";
 import { Target } from "lucide-react";
 
+export const metadata = {
+  title: "Business Consultancy Services in Prayagraj – Grow Smarter!",
+  description:
+    "Business consultancy services in Prayagraj to streamline processes, boost efficiency, and unlock your business’s potential. Let’s grow!",
+};
+
 export default function BusinessConsultancy() {
   return (
     <>

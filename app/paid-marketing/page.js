@@ -7,6 +7,13 @@ import WhyChooseUs from "@/components/sections/WhyChooseUs";
 import Counter from "@/components/sections/counter";
 import CTA from "@/components/sections/CTA";
 
+export const metadata = {
+  title:
+    "Paid Marketing Services | Google & Meta Ads Agency – BizzBuzz Creations",
+  description:
+    "Boost sales with ROI-driven paid marketing services. BizzBuzz Creations offers Google Ads, Meta Ads & performance marketing for high-quality leads and conversions.",
+};
+
 export default function SearchEngineOptimization() {
   return (
     <>

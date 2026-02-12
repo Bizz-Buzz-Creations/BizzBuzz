@@ -7,6 +7,12 @@ import WhyChooseUs from "@/components/sections/WhyChooseUs";
 import Counter from "@/components/sections/counter";
 import CTA from "@/components/sections/CTA";
 
+export const metadata = {
+  title: "Social Media Marketing in Prayagraj",
+  description:
+    "Social media marketing in Prayagraj to boost your brand, engage customers, and grow online. Let’s take your social media to the next level!",
+};
+
 export default function SocialMediaMarketing() {
   return (
     <>

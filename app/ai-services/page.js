@@ -6,6 +6,12 @@ import WhyChooseUs from "@/components/sections/WhyChooseUs";
 import Counter from "@/components/sections/counter";
 import CTA from "@/components/sections/CTA";
 
+export const metadata = {
+  title: "AI Services - Bizz Buzz Creations",
+  description:
+    "AI is not the future—it’s happening now. Our solutions simplify complex workflows, optimize performance, and fuel business growth.",
+};
+
 export default function SocialMediaMarketing() {
   return (
     <>

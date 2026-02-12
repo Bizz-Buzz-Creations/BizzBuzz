@@ -8,6 +8,12 @@ import Counter from "@/components/sections/counter";
 import CTA from "@/components/sections/CTA";
 import OurServices from "@/components/sections/ourServices";
 
+export const metadata = {
+  title: "Digital Marketing Services in Prayagraj",
+  description:
+    "Choose Bizz Buzz Creations because we are not just the digital marketing agency in Prayagraj, but a trusted partner for businesses worldwide.",
+};
+
 export default function digitalMarketing() {
   return (
     <>

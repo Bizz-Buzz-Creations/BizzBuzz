@@ -7,6 +7,12 @@ import WhyChooseUs from "@/components/sections/WhyChooseUs";
 import Counter from "@/components/sections/counter";
 import CTA from "@/components/sections/CTA";
 
+export const metadata = {
+  title: "Website Development Services in Prayagraj",
+  description:
+    "Want a standout website? website development services in prayagraj create responsive, user-friendly, sites for business. Get started now!",
+};
+
 export default function WebDevelopment() {
   return (
     <>

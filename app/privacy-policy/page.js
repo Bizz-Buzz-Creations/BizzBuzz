@@ -1,5 +1,10 @@
 import React from "react";
 
+export const metadata = {
+  title: "Privacy Policy of Bizzbuzz Creations",
+  description: "About our policies || Bizzbuzz Creations",
+};
+
 export default function page() {
   return (
     <div className="container mx-auto px-20 py-40">

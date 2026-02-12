@@ -7,6 +7,12 @@ import WhyChooseUs from "@/components/sections/WhyChooseUs";
 import Counter from "@/components/sections/counter";
 import CTA from "@/components/sections/CTA";
 
+export const metadata = {
+  title: "Seo Services in Prayagraj",
+  description:
+    "Best seo services in Prayagraj to improve your website’s ranking, drive traffic, and grow your online presence. Let’s Start today!",
+};
+
 export default function SearchEngineOptimization() {
   return (
     <>

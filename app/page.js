@@ -12,6 +12,12 @@ import WhyChooseUs from "@/components/sections/WhyChooseUs";
 import ConsultationPopup from "@/components/sections/popupForm";
 import LogoSlider from "@/components/sections/logoSlider";
 
+export const metadata = {
+  title: "Best Digital Marketing Agency in India | Bizz Buzz Creations",
+  description:
+    "Grow your business with Bizz Buzz Creations – India’s top digital marketing and BPO company. We offer SEO, SMM, and lead generation services.",
+};
+
 export default function Home() {
   return (
     <>
