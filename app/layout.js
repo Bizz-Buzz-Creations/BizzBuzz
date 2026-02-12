@@ -6,6 +6,7 @@ import Footer from "../components/layout/footer";
 import { ToastContainer, Bounce } from "react-toastify";
 import FlowbiteInit from "@/components/sections/FlowbiteInit";
 import Whatsapp from "@/components/sections/whatsapp";
+import AllScripts from "@/components/sections/allScripts";
 
 const firaSans = Fira_Sans({
   subsets: ["latin"],
@@ -33,6 +34,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${firaSans.variable} ${ibmPlexSans.variable} antialiased`}
       >
+        <AllScripts />
         <Whatsapp />
         <Navbar />
         <FlowbiteInit />
